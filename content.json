@@ -1,8 +1,9 @@
 {
     "fruit": "Apple",
     "size": "Large",
-    "color": "Red",
+    "color": "Green",
 	"color2": "Red2",
 	"color3": "Red3",
+	"color4" : "Red4"
 	
 }
