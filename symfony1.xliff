@@ -18,6 +18,10 @@
                 <source>hello.world</source>
                 <target></target>
             </trans-unit>
+            <trans-unit id="hello.symfony">
+                <source>hello.symfony</source>
+                <target></target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
