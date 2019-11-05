@@ -10,6 +10,14 @@
                 <source>symfony.great</source>
                 <target></target>
             </trans-unit>
+            <trans-unit id="hello_world">
+                <source>Hello World!</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="hello.world">
+                <source>hello.world</source>
+                <target></target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
