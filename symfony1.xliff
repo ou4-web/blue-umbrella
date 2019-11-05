@@ -8,7 +8,7 @@
             </trans-unit>
             <trans-unit id="symfony.great">
                 <source>symfony.great</source>
-                <target>J'aime Symfony</target>
+                <target></target>
             </trans-unit>
         </body>
     </file>
