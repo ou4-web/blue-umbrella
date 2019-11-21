@@ -16,7 +16,7 @@ msgid "We connect developers and translators around the globe "
 "on Memsource for a fantastic localization experience."
 msgstr ""
 
-msgid "Welcome back,  Your last visit was yesterday"
+msgid "Welcome back,  Your last visit was yesterday {variable}"
 msgstr ""
 
 msgid "new_user_id"
