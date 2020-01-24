@@ -13,8 +13,8 @@ msgid "Let’s make the web multilingual."
 msgstr "Machen wir das Internet mehrsprachig."
 
 msgid "We connect developers and translators around the globe "
-"on Memsource for a fantastic localization experience."
-msgstr "W$e$ c$o$n$n$e$c$t$ d$e$v$e$l$o$p$e$r$s$ a$n$d$ t$r$a$n$s$l$a$t$o$r$s$ a$r$o$u$n$d$ t$h$e$ g$l$o$b$e$ o$n$ M"
+"on Memsource for a fantastic localization."
+msgstr ""
 
 msgid "Welcome back,  Your last visit was yesterday {variable}"
 msgstr "W$e$l$c$o$m$e$ b$a$c$k$,  Y$o$u$r$ l$a$s$t$ v$i$s$i$t$ "
@@ -28,3 +28,5 @@ msgstr "A$m$s$t$e"
 msgid "London"
 msgstr "L$o$n$"
 
+msgid "Prague"
+msgstr ""
