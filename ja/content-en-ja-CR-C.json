@@ -1,12 +1,12 @@
 {
-    "fruit": "",
-    "size": "大",
+    "fruit": "オレンジ",
+    "size": "大きな",
     "color": "緑",
-	"color2": "Red2",
-	"color3": "Red3",
-	"color4" : "赤4",
-	"vegetable": "にんじん",
-	"vegetable2": "キャロット2",
+	"color2": "レッド2",
+	"color3": "レッド3",
+	"color4" : "レッド4",
+	"vegetable": "ニンジン",
+	"vegetable2": "にんじん2",
 	"vegetable3": "ニンジン3"
 	
 }
