@@ -1,12 +1,12 @@
 {
-    "fruit": "",
+    "fruit": "Arancione",
     "size": "Grande",
-    "color": "verde",
+    "color": "Verde",
 	"color2": "Rosso2",
-	"color3": "Red3",
-	"color4" : "Red4",
+	"color3": "Rosso3",
+	"color4" : "Rosso4",
 	"vegetable": "Carota",
-	"vegetable2": "Carrot2",
-	"vegetable3": "Carrot3"
+	"vegetable2": "Carota2",
+	"vegetable3": "Carota3"
 	
 }
