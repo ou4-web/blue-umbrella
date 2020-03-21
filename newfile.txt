@@ -7,3 +7,4 @@ cat
 colour
 line
 line2
+line3
