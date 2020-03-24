@@ -1,0 +1,1500 @@
+<resources>
+    <string name="app_name">Binance</string>
+
+    <string name="central_loading">Loading</string>
+    <string name="facebook_app_id">2500167033586829</string>
+    <string name="network_request_failed">Network request failed</string>
+    <string name="network_request_timeout">Network request timeout</string>
+
+    <!--kline-->
+    <string name="kv_ema">EMA</string>
+    <string name="kv_sma">MA</string>
+    <string name="kv_boll">BOLL</string>
+    <string name="kv_vol">VOL</string>
+    <string name="kv_macd">MACD</string>
+    <string name="kv_kdj">KDJ</string>
+    <string name="kv_rsi">RSI</string>
+    <string name="kv_wr">WR</string>
+
+    <!--placeholder-->
+    <string name="placeholder">--</string>
+    <string name="symbol_placeholder">-- / --</string>
+
+    <!--tabs-->
+    <string name="index">Home</string>
+    <string name="markets">Markets</string>
+    <string name="trades">Trades</string>
+    <string name="funds">Funds</string>
+    <string name="account">Account</string>
+    <string name="choose_markets">Choose Markets</string>
+    <string name="user_total_btc">Total Value(BTC)</string>
+    <string name="coin_list">Coin list</string>
+
+
+    <!--index-->
+    <string name="_support">Help &#038; Support</string>
+    <string name="btc_24h_volume_top">BTC 24h Volume Top</string>
+    <string name="volume_btc">Volume(BTC)</string>
+    <string name="gainers">Gainers</string>
+    <string name="losers">Losers</string>
+    <string name="more">More</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="format_market">%1$s Market</string>
+    <string name="launchpad">LaunchPad</string>
+
+    <!--market-->
+    <string name="vol">Vol</string>
+    <string name="format_vol">Vol %1$s</string>
+    <string name="_price">Price</string>
+    <string name="_total">Total</string>
+    <string name="decimal">Decimal</string>
+    <string name="h24_change">24h Change</string>
+    <string name="depth">Depth</string>
+    <string name="trade_history">Trade History</string>
+    <string name="time">Time</string>
+    <string name="btc_value">BTC Value</string>
+    <string name="_Pair">Pair</string>
+    <string name="_new_pair">Pair</string>
+    <string name="last_price">Last Price</string>
+    <string name="h24_chg">24h Chg%</string>
+    <string name="market_price">Market Price</string>
+    <string name="_high">High</string>
+    <string name="_low">Low</string>
+    <string name="_book">Book</string>
+    <string name="indicator">Indicator</string>
+    <string name="compare_markets">Compare Markets</string>
+
+    <string name="format_symbol">%1$s / %2$s</string>
+    <string name="format_price_tag">Price(%1$s)</string>
+    <string name="format_amount_tag">Amount(%1$s)</string>
+    <string name="format_decimal">%1$s Decimal</string>
+    <string name="format_decimals">%1$s Decimals</string>
+    <string name="_decimals">Decimals</string>
+
+
+    <!--trades-->
+    <string name="percent_25">25%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_75">75%</string>
+    <string name="percent_100">100%</string>
+    <string name="total">Total:</string>
+    <string name="_amount">Amount</string>
+    <string name="_available_">Available:</string>
+    <string name="_buy">Buy</string>
+    <string name="_sell">Sell</string>
+    <string name="no_trade_history">You have no trades</string>
+    <string name="avbl">Avbl</string>
+    <string name="bid">Bid</string>
+    <string name="ask">Ask</string>
+    <string name="limit_order">Limit Order</string>
+    <string name="market_order">Market Order</string>
+    <string name="oco_order">OCO</string>
+    <string name="market_trades">Market Trades</string>
+    <string name="price_high_than_latest_price">Your order price is more than 5% higher than the
+        last price, are you sure?
+    </string>
+    <string name="price_low_than_latest_price">Your order price is more than 5% lower than the last
+        price, are you sure?
+    </string>
+
+    <string name="market_price_high_than_latest_price">Your order price will be %1$s higher than the
+        latest market price. Please proceed cautiously.
+    </string>
+    <string name="market_price_low_than_latest_price">Your order price will be %1$s lower than the
+        latest market price. Please proceed cautiously.
+    </string>
+
+    <string name="format_buy_stop_loss">If the last price rises to or above %1$s ,an order to buy
+        %3$s at a price of %2$s will be placed.
+    </string>
+    <string name="format_buy_take_profit">If the last price drops to or below %1$s, an order to buy
+        %3$s at a price of %2$s will be placed.
+    </string>
+    <string name="format_sell_stop_loss">If the last price drops to or below %1$s, an order to sell
+        %3$s at a price of %2$s will be placed.
+    </string>
+    <string name="format_sell_take_profit">If the last price rises to or above %1$s, an order to
+        sell %3$s at a price of %2$s will be placed.
+    </string>
+    <string name="oco_buy_price_greater_than_close">Limit buy price should be less than market price</string>
+    <string name="oco_buy_stop_lower_than_close">Stop Price should be greater than market price</string>
+    <string name="oco_buy_stop_lower_than_price">Stop Price should be greater than limit buy price</string>
+    <string name="oco_sell_price_lower_than_close">Limit sell price should be greater than market price</string>
+    <string name="oco_sell_stop_greater_than_close">Stop Price should be less than market price</string>
+    <string name="oco_sell_stop_greater_than_price">Stop Price should be less than limit sell price</string>
+    <string name="limit_price">Limit Price</string>
+    <string name="stop_price">Stop Price</string>
+    <string name="stop_limit_price">Stop-Limit Price</string>
+    <string name="amount_total">Amount Total</string>
+
+    <string-array name="trade_tabs">
+        <item>Buy</item>
+        <item>Sell</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="array_leverage_rate" translatable="false">
+        <item>1x</item>
+        <item>25x</item>
+        <item>50x</item>
+        <item>75x</item>
+        <item>100x</item>
+        <item>125x</item>
+    </string-array>
+    <string name="leverage_unit" translatable="false">x</string>
+
+
+    <!--open orders-->
+    <string name="open_orders">Open Orders</string>
+    <string name="margin_open_orders">Margin Open Orders</string>
+    <string name="_history">History</string>
+    <string name="_filled">Filled</string>
+    <string name="_cancel_all">Cancel All</string>
+    <string name="are_u_sure_cancel_all">Are you sure you want to cancel all?</string>
+    <string name="sell_orders">Sell Orders</string>
+    <string name="buy_orders">Buy Orders</string>
+    <string name="in_order">In Order</string>
+    <string name="hide_other_pairs">Hide Other Pairs</string>
+    <string name="buy_limit">Buy Limit</string>
+    <string name="sell_limit">Sell Limit</string>
+    <string name="stop_limit">Stop-Limit</string>
+    <string name="buy_market">Buy Market</string>
+    <string name="sell_market">Sell Market</string>
+    <string name="limit_maker">Limit Maker</string>
+
+    <!--funds balance-->
+    <string name="balance">Balance</string>
+    <string name="i_understand_continue">I understand,Continue</string>
+    <string name="hide_small_balance">Hide small Balances</string>
+    <string name="show_all_balance">Show All Balances</string>
+    <string name="use_new_address">Use New Address</string>
+    <string name="estimated_value_btc">Estimated Value(BTC)</string>
+    <string name="estimated_value_cash">Estimated Value($)</string>
+
+    <string name="_available">Available</string>
+
+    <string name="hide_balance">*****</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="balance_total">Total</string>
+    <string name="go_to_trade">Go To Trade</string>
+    <string name="format_stop_coin">Stop(%1$s)</string>
+    <string name="format_limit_coin">Limit(%1$s)</string>
+    <string name="format_price_coin">Price(%1$s)</string>
+    <string name="format_amount_coin">Amount(%1$s)</string>
+    <string name="format_total_coin">Total(%1$s)</string>
+    <string name="format_equivalent_coin_to_money">Equivalent %1$s</string>
+
+    <string name="format_coin_to_money">$%1$s</string>
+    <string name="format_balance_btc">%1$s BTC</string>
+    <string name="format_balance_usdt">%1$s USDT</string>
+    <string name="transaction_history_fiat_hint">Pleas visit our website to view your Fiat transaction history.</string>
+
+
+    <!--depowithdrawawal-->
+    <string name="_deposit">Deposit</string>
+    <string name="_withdrawal">Withdrawal</string>
+    <string name="you_have_no_address">You have no address</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="save_image">Save Image</string>
+    <string name="fee">Fee</string>
+    <string name="daily_withdrawal_limit_">Daily Withdrawal Limit:</string>
+    <string name="higher_limit">Higher Limit</string>
+    <string name="withdrawals_history">Withdrawals History</string>
+    <string name="deposits_history">Deposits History</string>
+    <string name="txid">Txid</string>
+    <string name="copy_txid">Copy Txid</string>
+    <string name="copy_successful">Copy successful</string>
+    <string name="save_successful">Save successful</string>
+    <string name="save_failed">Save failed</string>
+    <string name="daily_withdraw_limit_">Daily Withdraw limit:</string>
+    <string name="no_less_than_minimum">No Less than the minimum withdraw number</string>
+    <string name="transaction_fee">Fee:</string>
+    <string name="you_will_get">You will get:</string>
+    <string name="address">Address</string>
+    <string name="address_cannot_be_null">Address cannot be null</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="amount_cannot_be_null">Amount cannot be null</string>
+    <string name="withdrawal_must_be_at_least">Withdrawal must be at least</string>
+    <string name="not_enough">Not enough</string>
+    <string name="suspend">Suspend</string>
+    <string name="max">MAX</string>
+    <string name="max_all">MAX</string>
+    <string name="max_borrow">Available</string>
+    <string name="tag_">Tag:</string>
+    <string name="label_can_not_be_empty">Label can not be empty</string>
+    <string name="address_can_not_be_empty">Address can not be empty</string>
+    <string name="limited_release_update">Limited release,update?</string>
+    <string name="block_chain_explorer">BlockChain explorer</string>
+    <string name="withdraw_amount">Withdraw Amount</string>
+    <string name="limit_and_notice">Limit &amp; Notice</string>
+    <string name="new_address">New Address</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="status">Status</string>
+    <string name="confirmations">Confirmations</string>
+    <string name="check_export">Check Explorer</string>
+    <string name="date">Date</string>
+    <string name="Label">Label</string>
+    <string name="withdrawal_detail">Withdrawal Detail</string>
+    <string name="deposit_detail">Deposit Detail</string>
+    <string name="no_tag">No tag</string>
+    <string name="link_in_the_email_not_working_enter_the_verification_code">Link in the email not
+        working? Enter the verification code.
+    </string>
+    <string name="confirm_withdrawal">Confirm withdrawal</string>
+    <string name="the_verification_code">The verification code</string>
+    <string name="please_enter_the_verification_code_in_the_email_to_confirm_the_withdrawal">Please
+        enter the verification code in the email to confirm the withdrawal.
+    </string>
+    <string name="go_to_web_set_white_status">You have no whitelist address. Manage your addresses
+        on Binance.com.
+    </string>
+
+    <string name="format_asset_label_is_required">%1$s is required</string>
+    <string name="format_withdraw_limit">24h Withdrawal Limit: %1$s BTC \n\nIn Use: %2$s BTC
+    </string>
+    <string name="format_daily_withdrawal_limit_btc">Daily Withdrawal Limit: %1$sBTC</string>
+    <string name="format_deposit_suspend">%1$s Deposit Suspend</string>
+    <string name="format_withdraw_suspend">%1$s Withdraw Suspend</string>
+    <string name="format_deposit_address">%1$s Deposit Address</string>
+    <string name="format_deposit_tag">%1$s Deposit %2$s</string>
+    <string name="format_minimum_withdrawal">• Minimum withdrawal:%1$s. \n\n• Do not withdrawal
+        directly to a crowdfund or ICO. We will not credit your account with tokens from that sale.
+        \n\n• Once you have submitted your withdrawal request, we will send a confirmation email.
+        Please then click on the confirmation link in your email.
+    </string>
+
+
+    <!--account-->
+    <string name="fav_pair">Pair</string>
+    <string name="favorites">Favorites</string>
+    <string name="add_favorites">Favorites</string>
+    <string name="edit_favorites">Edit Favorites</string>
+    <string name="Logout">Logout</string>
+    <string name="using_bnb_to_pay_for_fees_50_discount">Using BNB to pay for fees (50% discount)
+    </string>
+    <string name="format_using_bnb_to_pay_for_fees_50_discount">Using BNB to pay for fees (%1$s
+        discount)
+    </string>
+    <string name="identity_authentication">Identity Authentication</string>
+    <string name="unverified">Unverified</string>
+    <string name="verification_completed">Completed</string>
+    <string name="verification_documents">(Verification Documents)</string>
+    <string name="referral_id_optional">Referral ID (optional)</string>
+    <string name="referral_id_is_invalid">Referral ID is invalid.</string>
+    <string name="goto_finish_google_authenticator">Please go to Binance PC website
+        <b>
+            <tt>(www.binance.com)</tt>
+        </b>
+        to finish Google Authenticator
+    </string>
+    <string name="goto_finish_sms_authenticator">Please go to Binance PC website
+        <b>
+            <tt>(www.binance.com)</tt>
+        </b>
+        to finish SMS Authenticator
+    </string>
+    <string name="goto_finish_verification_documents">Please go to Binance PC website
+        <b>
+            <tt>(www.binance.com)</tt>
+        </b>
+        to finish Verification Documents.
+    </string>
+    <string name="protocol">Protocol</string>
+    <string name="level_1">Lv.1</string>
+    <string name="_setting">Settings</string>
+    <string name="year_report">Annual Bill</string>
+    <string name="referral_program">My Referral ID</string>
+    <string name="share_year_report">Share Annual Bill via</string>
+    <string name="finish_2fa_tip">We strongly recommend you to enable 2FA on your account! Please go
+        to Binance website(www.binance.com) to finish 2FA first.
+    </string>
+
+    <string name="format_lv">Lv %1$s</string>
+
+
+    <!--login register password-->
+    <string name="_login">Login</string>
+    <string name="logout_success">LoginOut Success</string>
+    <string name="login_expired_please_login_again">Your login information has expired. Please login
+        again
+    </string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="I_agree_to_binance">I agree to Binance’s</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_new_password">Repeat New Password</string>
+    <string name="set_new_password">Setting New Password</string>
+    <string name="please_accept_term">Please accept Term</string>
+    <string name="password_must_be_at_least_eight_chars">Password must be at least 8 characters with
+        uppercase letters.
+    </string>
+    <string name="the_password_cant_be_empty">The password can not be empty</string>
+    <string name="_password">Password</string>
+    <string name="dont_have_an_account_yet">Don’t have an account yet?</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwords_do_not_match">Passwords do not match Please try again</string>
+    <string name="invalid_password">Invalid Password</string>
+
+
+    <!--email sms google auth-->
+    <string name="google_authenticator">Google Authenticator</string>
+    <string name="sms_authenticator">SMS Authenticator</string>
+    <string name="u_will_receive_email">You will receive an email with further instructions if your
+        account exists. If you do not receive an email within 15 minutes,please contact support.
+    </string>
+    <string name="we_have_sent_verification_message">We sent a verification message to your
+        email,please enter the verification code!
+    </string>
+    <string name="verify_your_email">Verify Your Email</string>
+    <string name="resend_mail_">Resend Mail >></string>
+    <string name="resend_mail">Resend Mail</string>
+    <string name="change_sms_auth">Change SMS Auth</string>
+    <string name="_email">Email</string>
+    <string name="google_authenticator_code">Google Authenticator Code</string>
+    <string name="sms_authenticator_code">SMS authenticator code:</string>
+    <string name="_2fa">2FA</string>
+    <string name="enter_email_format_error">Enter email format error</string>
+    <string name="google_auth">Google Auth</string>
+    <string name="sms_auth">SMS Auth</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="the_email_cant_be_empty">The Email can not be empty</string>
+    <string name="please_do_not_disclose_sms_and_google">Please do not disclose SMS and Google
+        Authentication codes to anyone, including Binance customer support.
+    </string>
+    <string name="resend_successful">Resend successful</string>
+    <string name="please_check_your_email">Once you have submitted your withdrawal request, we will
+        send a confirmation email. Please then click on the confirmation link in your email.
+    </string>
+    <string name="if_u_not_received_email">If you haven\'t received the email</string>
+    <string name="paste">Paste</string>
+    <string name="not_receive_email">Can\'t receive mail? </string>
+    <string name="not_receive_pls_resend_email">Resend</string>
+    <string name="confirm_new_device_login">Confirm New Device Login</string>
+    <string name="confirm_new_device_login_hint">You are logging in from an unrecognized device or IP. A verification code has sent to</string>
+    <string name="voice_msg_send_success">Successfully sent, please keep your phone nearby as verification will be sent to you shortly.</string>
+    <string name="voice_msg_send_to">Send voice verification code to %s.</string>
+    <string name="voice_msg_send_hint">Did not receive SMS message? <![CDATA[<br/><font color=\'#f0b90b\'>Please try voice verification</font>]]> </string>
+    <string name="sms_msg_send_hint">Send a SMS verification code to your phone %s</string>
+    <string name="resend_sms_countdown">Resend email (%ds)</string>
+    <string name="voice_verification">Voice verification</string>
+
+
+    <!--finger gesture-->
+    <string name="touch_id">Touch ID</string>
+    <string name="pattern">Pattern</string>
+    <string name="change_pattern">Change Pattern</string>
+    <string name="draw_pattern">Draw Pattern</string>
+    <string name="verify_finger">Verify your fingerprint</string>
+    <string name="please_close_touch_id_first">Please close the Touch ID first.</string>
+    <string name="please_close_pattern_first">Please close the Pattern first.</string>
+    <string name="fingerprint_not_match">Fingerprint does not match</string>
+    <string name="at_least_4_points_required">At least 4 points required.</string>
+    <string name="android_version_not_support_touchid">Your device or android version does not
+        support Touch ID.
+    </string>
+    <string name="attempt_s_left">attempt(s) left</string>
+    <string name="draw_pattern_again">Draw Pattern Again</string>
+    <string name="not_match_please_draw_again">Not match.Please draw it again.</string>
+    <string name="password_login">Password Login</string>
+    <string name="touch_in">Touch-In</string>
+    <string name="pattern_not_open">Pattern not open</string>
+    <string name="check_pattern">Check pattern</string>
+
+
+    <!--function-->
+    <string name="search_results_">Search results:</string>
+    <string name="please_input_keywords">Please input Keywords</string>
+    <string name="select_coin">Select Coin</string>
+
+    <string name="format_current">Your choice: %1$s</string>
+
+
+    <!--information-->
+    <string name="About">About</string>
+    <string name="language">Language</string>
+    <string name="EN">English</string>
+    <string name="CN">中文简体</string>
+    <string name="ES">Español</string>
+    <string name="KO">한국어</string>
+    <string name="TR">Türk dili</string>
+    <string name="VI">Tiếng việt</string>
+    <string name="RU">Pусский</string>
+    <string name="contact_us">(Contact Us)</string>
+    <string name="feedback">System Feedback</string>
+
+
+    <!--status-->
+    <string name="success">Success</string>
+    <string name="failed">failed</string>
+    <string name="Failure">Failure</string>
+    <string name="no_more_data">No more data</string>
+
+
+    <!--action-->
+    <string name="_Submit">Submit</string>
+    <string name="_cancel">Cancel</string>
+    <string name="click_exit_again">Click exit again</string>
+    <string name="_search">Search</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="OK">OK</string>
+    <string name="ON">ON</string>
+    <string name="OFF">OFF</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="done">Done</string>
+    <string name="top">Top</string>
+    <string name="sort">Sort</string>
+    <string name="i_understand">I understand</string>
+    <string name="full">Full</string>
+    <string name="canceled">Canceled</string>
+
+
+    <!--k line-->
+    <string name="k_time">Line</string>
+    <string name="k_1min">1m</string>
+    <string name="k_5min">5m</string>
+    <string name="k_15min">15m</string>
+    <string name="k_30min">30m</string>
+    <string name="k_1h">1H</string>
+    <string name="k_2h">2H</string>
+    <string name="k_4h">4H</string>
+    <string name="k_6h">6H</string>
+    <string name="k_12h">12H</string>
+    <string name="k_1d">1D</string>
+    <string name="k_1w">1W</string>
+    <string name="k_1mon">1M</string>
+
+    <string name="format_k_detail_o">O %1$s</string>
+    <string name="format_k_detail_h">H %1$s</string>
+    <string name="format_k_detail_l">L %1$s</string>
+    <string name="format_k_detail_c">C %1$s</string>
+    <string name="format_k_detail_txn">Txn %1$s</string>
+    <string name="format_k_detail_change">Change %1$s</string>
+
+
+    <!--network-->
+    <string name="data_request_failed">Data request failed</string>
+
+
+    <!--asset-->
+    <string name="format_cash">$%1$s</string>
+    <string name="format_dollar">$%1$s</string>
+
+
+    <!--none group-->
+    <string name="foot">foot</string>
+    <string name="slash">/</string>
+    <string name="left_k">(</string>
+    <string name="k_right">)</string>
+    <string name="_default">Default</string>
+
+    <string name="format_double_string">%1$s %2$s</string>
+    <string name="format_timer_s">%1$ds</string>
+    <string name="format_original_amount">/ %1$s</string>
+    <string name="format_two_fa_phone_number">Phone number: %1$s</string>
+    <string name="format_brackets">(%1$s)</string>
+
+
+    <!--order history-->
+    <string name="order_filter">Order filter</string>
+    <string name="_all">All</string>
+    <string name="_1_day">1Day</string>
+    <string name="_1_week">1Week</string>
+    <string name="_1_month">1Month</string>
+    <string name="_3_month">3Month</string>
+    <string name="_coin">Coin</string>
+    <string name="_Type">Type</string>
+    <string name="buy_and_sell">Buy &amp; Sell</string>
+    <string name="hide_all_canceled">Hide all canceled</string>
+    <string name="order_history">Order History</string>
+    <string name="price_avg">Price / Avg.</string>
+    <string name="amount_filled">Amount / Filled</string>
+    <string name="filled_amount">Filled / Amount</string>
+    <string name="avg_price">Avg. / Price</string>
+    <string name="_filter">Filter</string>
+    <string name="select_market">Select Market</string>
+    <string name="_type_">Type:</string>
+    <string name="_date_">Date:</string>
+    <string name="clear">Clear</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="conditions">Conditions</string>
+    <string name="_coin_">Coin:</string>
+    <string name="_market_">Market:</string>
+    <string name="format_slash_">%1$s / %2$s</string>
+    <string name="format_double_string_no_blank">%1$s%2$s</string>
+    <string name="format_partial_fill">Partial Fill (%1$s%2$s)</string>
+    <string name="reset">Reset</string>
+    <string name="you_have_no_order_history">You have no order history</string>
+    <string name="_limit">Limit</string>
+    <string name="_market">Market</string>
+    <string name="simple_market_price">Market</string>
+    <string name="trading_price">Trading Price</string>
+    <string name="filled_means_amount">Filled</string>
+    <string name="trade_detail">Trade Detail</string>
+    <string name="_complete">Complete</string>
+    <string name="_buy_b">B</string>
+    <string name="_sell_s">S</string>
+
+    <!--qr code-->
+    <string name="scan_qr_code">Scan QR-Code</string>
+    <string name="camera_permission_request_was_denied">Camera permission request was denied.
+    </string>
+    <string name="required_to_display_the_camera_preview">Camera access is required to display the
+        camera preview.
+    </string>
+    <string name="storage_access_is_required">Storage access is required to read qr code picture
+    </string>
+    <string name="permission_is_not_available_requesting_camera_permission">Permission is not
+        available. Requesting camera permission.
+    </string>
+    <string name="ok">OK</string>
+
+
+    <!--gauth-->
+    <string name="download_and_install">Download and Install</string>
+    <string name="backup_key">Backup Key</string>
+    <string name="enter_key">Enter the 16-Digit key</string>
+    <string name="setup_code">Setup Code</string>
+    <string name="_next">Next</string>
+    <string name="download_and_install_gauth">To begin, you will need to install the #Google
+        Authenticator# application on your phone.
+    </string>
+    <string name="please_save_key_on_paper">Please save this key on paper. This key will allow you
+        to recover your Google Authentication in case of phone loss.
+    </string>
+    <string name="please_enter_key">Please enter the 16-digit key you just backed up.</string>
+    <string name="gauth_tutorial">You\'ll need to add a Binance account in your Google Authenticator
+        app and manually enter the 16-digit key.
+    </string>
+    <string name="fa_key_do_not_match">Google 2FA 16-digit Key do not match. Please try again.
+    </string>
+    <string name="login_password">Login Password</string>
+    <string name="already_open_google_auth">You have enabled Google Authentication. If you need to
+        disable it , please visit our website
+        <b>
+            <tt>(www.binance.com)</tt>
+        </b>
+    </string>
+
+    <!--other-->
+    <string name="binance_com_all_rights_reserved">© 2020 Binance.com All Rights Reserved</string>
+    <string name="google_authenticator_for_android">Google Authenticator for Android</string>
+    <string name="download">Download</string>
+
+    <string name="change_password_notice">* For security purposes no withdrawals are permitted for
+        24 hours after modification of security methods.
+    </string>
+
+    <string name="fee_">Fee:</string>
+    <string name="_tag">Tag</string>
+    <string name="copy_tag">Copy Tag</string>
+    <string name="login_failed">Login failed</string>
+    <string name="register_failed">register failed</string>
+
+    <string name="search_history">Search History</string>
+    <string name="security">Security</string>
+    <string name="clean_cache">Clean Cache</string>
+    <string name="zero_mb">0 MB</string>
+    <string name="format_mb">%1$s MB</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_verification_code">Enter your verification code</string>
+    <string name="enter_your_google_code">Enter your Google Authenticator code</string>
+
+    <string name="about_stop_limit">A Stop-Limit order is an order to buy or sell a coin once the
+        price reaches a specified price.
+    </string>
+    <string name="about_oco">To place a stop-limit order (the trigger stop price should be higher than market price for buy order, and lower for sell order) and a limit order (the limit price should be lower than market price for buy order, and higher for sell order) at the same time. When either of the order pairs is triggered, the other order will be cancelled. And if either of the order pairs is cancelled, the other order will be cancelled, too.</string>
+    <string name="view_more">View more</string>
+    <string name="disable_sms_authentication">Disable SMS Authentication</string>
+    <string name="disable_google_authentication">Disable Google Authentication</string>
+
+    <string name="alpha_beta_filter">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="the_stop_price_cannot_equal_to_last_price">The Stop Price cannot be equal to the
+        Last Price.
+    </string>
+    <string name="loading">Loading</string>
+    <string name="order_would_trigger_immediately">Order would trigger immediately</string>
+
+    <string name="widget_tickets">Widget Tickets</string>
+    <string name="select">Select</string>
+    <string name="_save">Save</string>
+    <string name="edit_tickets">Edit Tickets</string>
+    <string name="currency">Currency</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="like_us_on_facebook">Like us on Facebook</string>
+    <string name="follow_us_on_twitter">Follow us on Twitter</string>
+    <string name="join_us_on_telegram">Join us on Telegram</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="version_up_to_date">Your current version is up to date</string>
+    <string name="unbind_mobile_notice">*For security purposes no withdrawals are permitted for 24
+        hours after disable of SMS Authentication.
+    </string>
+    <string name="unbind_google_auth_notice">*For security purposes no withdrawals are permitted for
+        24 hours after disable of Google Auth.
+    </string>
+    <string name="login_or_register">Login or Register</string>
+    <string name="color_preference">Color Preference</string>
+    <string name="style_setting">Style Setting</string>
+    <string name="green_red">Green + Red -</string>
+    <string name="red_green">Red + Green -</string>
+    <string name="style_1">Style 1</string>
+    <string name="confirm">Confirm</string>
+    <string name="style_2">Style 2</string>
+    <string name="large_price_difference_between_your_order_and_latest_trade">Large price difference
+        between your order and the latest trade. Please proceed carefully.
+    </string>
+    <string name="place_order">Place Order</string>
+
+    <string name="convert_to_bnb">Convert To BNB</string>
+    <string name="_name">Name</string>
+    <string name="approx_bnb_value">Approx.BNB Value</string>
+    <string name="you_have_selected">You have selected</string>
+    <string name="coins">coins</string>
+    <string name="fee_bnb">Fee (BNB)</string>
+    <string name="converted_bnb">Converted BNB</string>
+    <string name="conversion_history">Conversion History</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="conversion_detail">Conversion Detail</string>
+    <string name="approx_bnb_value_is">Approx. BNB Value is</string>
+    <string name="format_net_of_bnb_fee">(Net of %1$s BNB fee)</string>
+    <string name="format_approximately_equal">≈ %1$s</string>
+    <string name="there_is_no_convertible_currency">There is no convertible currency</string>
+    <string name="equity_value_btc">Equity Value(BTC)</string>
+    <string name="a">A</string>
+
+    <!--Pull to refresh-->
+    <string name="cube_ptr_pull_down">Pull Down</string>
+    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
+    <string name="cube_ptr_refreshing">Updating…</string>
+    <string name="cube_ptr_refresh_complete">Updated.</string>
+
+    <string name="cube_ptr_last_update">last update:&#160;</string>
+    <string name="cube_ptr_seconds_ago">&#160;seconds ago</string>
+    <string name="cube_ptr_minutes_ago">&#160;minutes ago</string>
+    <string name="cube_ptr_hours_ago">&#160;hours ago</string>
+
+    <string name="pull_to_refresh_pull_label">Pull To Refresh</string>
+    <string name="pull_to_refresh_release_label">Release To Refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Loading……</string>
+
+    <!--Help-->
+    <string name="we_want_to_help_you_to_use_binance_and_take_advantage_of_all_its_features">We want
+        to help you to use Binance and take advantage of all its features
+    </string>
+    <string name="you_can_check_our_help_center_for_common_questions_and_tutorials">You can check
+        our help Center for common questions and tutorials
+    </string>
+    <string name="live_chat_and_messaging">Live chat and messaging</string>
+    <string name="help_center_faq">Help Center (FAQ)</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="chat">Chat</string>
+    <string name="help_support"><![CDATA[Help & Support]]></string>
+    <string name="new_ip_address_detected">New IP Address Detected</string>
+    <string name="format_new_ip_address_notice">We have detected you are attempting to access your
+        account from the following IP Address: %1$s and sent a confirmation email to you. Please
+        follow the instructions to access your account.
+    </string>
+    <string name="_scan">Scan</string>
+
+    <!--zendesk-->
+    <string name="chat_not_in_operating_time">Hi, thanks for reaching out. Our customer service team
+        will be available from 9:00~21:00 during which you can contact us via chat or you can submit
+        a ticket via support. Your cooperation is much appreciated.
+    </string>
+    <string name="pre_chat_account_offline_dialog_message">Hello, our customer service team is
+        currently unavailable. Any queries please kindly submit tickets to us, thank you for your
+        cooperation.
+    </string>
+    <string name="chat_name">Name</string>
+    <string name="chat_email_address">Email address</string>
+    <string name="chat_message">Message</string>
+    <string name="chat_select_a_department">Select a department</string>
+    <string name="chat_select_a_language">Select a language</string>
+    <string name="chat_starting_chat">Starting chat…</string>
+    <string name="chat_end_this_chat">Want to end the session?</string>
+    <string name="chat_your_chat_session_will_be_closed">
+        If you choose to keep the conversation, it will be saved for 3 minutes, please come back
+        soon
+    </string>
+    <string name="pre_chat_name_is_required">Name is required</string>
+    <string name="pre_chat_email_is_required">Email is required</string>
+    <string name="pre_chat_department_is_required">Department is required</string>
+    <string name="pre_chat_message_is_required">Message is required</string>
+    <string name="chat_next">Next</string>
+    <string name="chat_rate_this_chat_title">Rate this chat</string>
+    <string name="chat_leave_a_comment">Leave a comment</string>
+    <string name="chat_leave_a_comment_title">Leave a comment…</string>
+    <string name="chat_edit_comment">Edit comment…</string>
+    <string name="chat_send_comment">Send</string>
+    <string name="chat_connection_lost">Connection lost</string>
+    <string name="chat_no_internet">Device has no internet connection</string>
+    <string name="chat_account_offline_message">There are currently no agents online.</string>
+
+    <!--Order History-->
+    <string name="date_start_">Start:</string>
+    <string name="date_end_">End:</string>
+    <string name="start_time_should_be_earlier_than_end_time">Start time must be earlier than end
+        time
+    </string>
+    <string name="end_time_must_be_later_than_start_time">End time must be later than start time
+    </string>
+    <string name="please_select_start_and_end_time_period_with_3_months">Please select start and end
+        time period within 3 months
+    </string>
+
+    <!--scan face-->
+    <string name="facial_verification">Facial Verification</string>
+    <string name="no_hats">No hats</string>
+    <string name="no_glasses">No glasses</string>
+    <string name="no_photo_editing">No photo editing</string>
+    <string name="sufficient_lighting">Sufficient lighting</string>
+    <string name="scan_only_supports_face_authentication_when_unlocking_users_and_resetting_2fa">
+        Scan QR code only supports facial verification
+    </string>
+    <string name="submission_successful">Submission successful</string>
+    <string name="check_face_success_tip">Your facial verification has been successfully
+        authenticated. Please be patient and wait for the result. We will complete the review
+        process in 7–10 business days, and the result will be sent to your email address. Thank you
+        for your patience.
+    </string>
+    <string name="submission_failed">Verification failed</string>
+    <string name="check_face_failed_tip">Your facial verification has failed. You can try again
+        through the facial verification page, or via the link we have sent to your email.
+    </string>
+    <string name="try_again">Try Again</string>
+    <string name="scan_face_scan_qr_code_failed">QR code failed, please try again</string>
+    <string name="scan_face_network_abnormal">The network is abnormal, please try again</string>
+    <string name="scan_face_facial_ver_failed">Facial verification failed, please try again</string>
+    <string name="face_verification_title">Face Verification</string>
+    <string name="face_verification_text">Once Face Verification has been completed, your account functionality will be upgraded.
+        You initiated this verification process yourself, not by following a link sent to you by someone else.
+        You assume full responsibility for any consequences resulting from completing this process.
+    </string>
+
+    <!--alert-->
+    <string name="price_alert">Alert</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="clear_all">Clear All</string>
+    <string name="set_alert">Set Alert</string>
+    <string name="create_alert">Create Alert</string>
+    <string name="format_equivalent">Equivalent: %1$s</string>
+    <string name="please_enter_alert_price">Please enter alert price</string>
+    <string name="input_error_tips">Alerts cannot be 1% lower than nor exceed 100 times of current
+        price.
+    </string>
+    <string name="alert_hide_other_pairs">Hide Other Pairs</string>
+    <string name="alert_price_equivalent">Alert Price (Equivalent)</string>
+    <string name="no_alerts">There is no alerts</string>
+    <string name="clear_all_confirm">Are you sure you want to clear all?</string>
+    <string name="dont_clear_all">Don\'t Clear All</string>
+    <string name="create_alert_success">Create Alert Success</string>
+    <string name="clear_alert_success">Clear Alert Success</string>
+    <string name="clear_all_alert_success">Clear All Alert Success</string>
+
+    <!--notification-->
+    <string name="check_alert_message">Notifications disable. Reenable notifications via Setting ->
+        Notifications -> Binance at Android
+    </string>
+    <string name="go_setting">Allow notifications</string>
+    <string name="temporary_no">Do not allow notifications</string>
+    <string name="_notifications">Notifications</string>
+    <string name="_announcements">Announcements</string>
+    <string name="recent_market_activity">Recent Market Activity</string>
+    <string name="_price_alert">Price Alert</string>
+    <string name="trade_notification">Trade Notification</string>
+    <string name="tip_dont_close_all_notify">If closed, you won\'t receive any Notification .
+    </string>
+    <string name="tip_dont_close_one_notify">If closed, you won\'t receive any Notification from
+        %1$s .
+    </string>
+    <string name="close">Close</string>
+    <string name="setNotificationNow">Set Notifications Now!</string>
+
+    <string name="_connecting_">Connecting…</string>
+
+    <!--qr scan-->
+    <string name="photo">Photo</string>
+    <string name="scan_qr_code_failed">Scan QR code failed</string>
+    <string name="password_pattern_invalid">Password must be at least 8 characters with uppercase
+        letters
+    </string>
+
+    <!--network-->
+    <string name="format_network_request_failed">Network request failed %1$s</string>
+    <string name="format_network_request_timeout">Network request timeout %1$s</string>
+
+    <string name="info">Info</string>
+    <string name="single_open">Open</string>
+    <string name="single_high">High</string>
+    <string name="single_low">Low</string>
+    <string name="single_close">Close</string>
+    <string name="single_chg">Chg</string>
+    <string name="single_chgp">%Chg</string>
+    <string name="single_vol">Vol</string>
+
+    <!--info-->
+    <string name="rank">Rank</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="circulation_supply">Circulation Supply</string>
+    <string name="max_supply">Max Supply</string>
+    <string name="total_supply">Total Supply</string>
+    <string name="issue_date">Issue Date</string>
+    <string name="issue_price">Issue Price</string>
+    <string name="explorer">Explorer</string>
+    <string name="introduction">Introduction</string>
+    <string name="search_results">Search results</string>
+    <string name="compare_this_coin_token_across_different_trading_markets">Compare this Coin/Token
+        across different trading markets
+    </string>
+    <string name="switch_between_trading_pairs_faster">Switch between trading pairs faster</string>
+    <string name="more_trading_indicators">More trading indicators</string>
+    <string name="more_coin_token_information">More Coin/Token information</string>
+    <string name="got_it">Got it</string>
+    <string name="u_have_no_fav">You have no favorites</string>
+
+    <!--Deactivate Account-->
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="disable_warning">Disabling your account will cause the following:</string>
+    <string name="disable_notice">1.All pending withdrawals will be canceled.\n2.All trading
+        capacities for your account will be disabled.\n3.All API keys for your account will be
+        deleted.\n4.All devices for your account will be deleted.\n5.In order to reactivate your
+        account, you will need to contact Binance support
+    </string>
+    <string name="disable_account">Disable Account</string>
+    <string name="disable_alert_title">Are you sure you want to disable your account?</string>
+    <string name="disable_alert_content">Your account will take 7&#8211;10 days to reactivate my
+        account through Customer Support.
+    </string>
+    <string name="deactivate">Deactivate</string>
+    <string name="support_email">support@binance.zendesk.com</string>
+
+    <!--Device management-->
+    <string name="device_management">Device Management</string>
+    <string name="these_devices_are_currently_allowed_to_access_your_account">These devices are
+        currently allowed to access your account
+    </string>
+    <string name="_location_">Location:</string>
+    <string name="_ip_">IP:</string>
+    <string name="are_you_sure_you_want_to_delete_this_device">Are you sure you want to delete this
+        device?
+    </string>
+    <string name="device_detail">Device Detail</string>
+    <string name="_ip_address_">IP Address:</string>
+    <string name="_recent_activity_">Recent Activity:</string>
+    <string name="no_more_devices">No more devices…</string>
+
+    <!--identity authentication-->
+    <string name="binance_app_does_not_support_enterprise_user_authentication_at_this_time">*
+        Binance APP does not support Corporate authentication at this time. Please go to <Data>
+            <![CDATA[<font color="#f0b90b">www.binance.com</font>]]></Data> for authentication.
+    </string>
+    <string name="please_go_to_website_complete">Please go to Binance PC website
+        <b>
+            <tt>(www.binance.com)</tt>
+        </b>
+        to complete Corporate authentication.</string>
+    <string name="facial_verify">Facial Verification</string>
+    <string name="basic_info">Basic Information</string>
+    <string name="location_info">Residential address</string>
+    <string name="last_name">Last Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="first_name">First Name</string>
+    <string name="birthday">Date of birth</string>
+    <string name="personal_info">Personal info</string>
+    <string name="certificate_info">Certificate info</string>
+    <string name="id_info">ID and Facial Info</string>
+    <string name="face_info">Face Info</string>
+    <string name="verify_passInfo">Passed</string>
+    <string name="id_verify">Id Verify</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="city">City</string>
+    <string name="country">Country / Region</string>
+    <string name="reject">Failed</string>
+    <string name="reject_reason">The personal photograph with signature does not meet
+        requiremengts
+    </string>
+    <string name="choose_appropriately">An account may not be verified as both Personal and Corporate, so please choose appropriately. </string>
+    <string name="own_one_account">An individual may only own/operate one account on our platform.</string>
+    <string name="please_go_to">Please go to</string>
+    <string name="binance_com">www.binance.com</string>
+    <string name="go_to_complete">to complete</string>
+    <string name="format_24h_withdrawal_limit_btc">24h Withdrawal Limit: %1$sBTC</string>
+    <string name="to_complete">To Complete</string>
+    <string name="awaiting_approval">Awaiting Approval</string>
+    <string name="submit_again">Submit Again</string>
+    <string name="_contact_us">Contact Us</string>
+
+    <string name="input_first_name">Input your first name</string>
+    <string name="input_middle_name">Input your middle name</string>
+    <string name="input_last_name">Input your last name</string>
+    <string name="input_your_birth">Please choose your birthday</string>
+    <string name="input_your_address">Input your address</string>
+    <string name="input_postal_code">Input postal code</string>
+    <string name="input_your_city">Input your city</string>
+    <string name="input_your_country_region">Choose your Country</string>
+
+    <string name="select_verification_type">Select Identity Verification Type</string>
+
+    <string name="sub_again">Try again</string>
+    <string name="sumbit_refused">Submitted Failed</string>
+    <string name="upload_id_fail_pls_retry">Your ID and Facial verification has failed.</string>
+    <string name="kyc_again">Submit Again</string>
+    <string name="sumbit_success">Submitted successfully</string>
+    <string name="upload_id_success_wait_for_next_step">Your Personal Verification request has been
+        received and will be reviewed within 1-3 business days. In the meantime, you should receive
+        an e-mail when complete.
+    </string>
+    <string name="goto_usercenter">Go to Account page</string>
+    <string name="netverify_initiate_error">Netverify Initiate Error</string>
+    <string name="goto_auth_tip">Please enable SMS Auth or Google Auth first</string>
+    <string name="goto_auth">Go to Enable</string>
+    <string name="personal">Personal</string>
+    <string name="corporate">Corporate</string>
+    <string name="enterprise">Enterprise</string>
+    <string name="system_version_is_too_low">Your system version is too low, Please go to
+        www.binance.com for authentication.
+    </string>
+    <!--<string name="higher_limit">Higher Limit</string>-->
+
+    <!--funds-->
+    <string name="distribution">Distribution</string>
+    <string name="note">Note:</string>
+    <string name="no_more_distribution">No more distribution…</string>
+    <string name="no_distribution_yet">No distribution yet</string>
+    <string name="coin_token">Coin/Token</string>
+    <string name="equivalent">Equivalent</string>
+    <string name="others">Others</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="funds_balance_tips">
+        <![CDATA[Small balances<b>(&lt;0.001 <br>BTC)</b> are shown in Others]]></string>
+
+    <string name="withdrawal_address_management">Withdrawal Address Management</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="add_to_whitelist">Add to Whitelist</string>
+    <string name="please_input_the_label">Please input the label</string>
+    <string name="please_input_the_address">Please input the address</string>
+    <string name="please_input_the_tag">Please input the tag</string>
+    <string name="_edit">Edit</string>
+    <string name="delete_address">Delete Address</string>
+    <string name="_remove">Remove</string>
+    <string name="_add">Add</string>
+    <string name="are_you_sure_to_turn_it_off">Turn it off?</string>
+    <string name="close_whitelist_alert">After turning off this function, you will be able to
+        withdrawal to any withdrawal address
+    </string>
+    <string name="turn_off">Turn off</string>
+    <string name="disable_whitelist_tip">Binance has sent a verification email to your email
+        address.Please follow the prompts in the email to disable withdrawal whitelisted.
+    </string>
+    <string name="add_whitelist_tip">Binance has sent a verification email to your email
+        address.Please follow the prompts in the email to add the withdrawal address into whitelist.
+    </string>
+    <string name="i_have_verified_the_email">I have verified the email</string>
+    <string name="do_not_receive_email_tip">If you haven’t received the email,please try the
+        following: \n* Make sure the email address you provided is correct. \n* Check your spam or
+        junk mail folders. \n* Add Binance to your email address whitelist. \n* Make sure your email
+        client is functioning normally.
+    </string>
+    <string name="disable_withdrawal_whitelist">Disable Withdrawal Whitelist</string>
+    <string name="edit_the_address">Edit the address</string>
+    <string name="remove_from_whitelist">Remove from whitelist</string>
+    <string name="turn_it_on">Turn it on ?</string>
+    <string name="open_whitelist_tip">After turning on this function, you will only be able to
+        withdraw to whitelisted withdrawal addresses. Are you sure you want to turn it on?
+    </string>
+    <string name="turn_on">Turn on</string>
+    <string name="delete_success">Delete success</string>
+    <string name="avoid_risk_do_not_add_address">* To avoid risk, please don\'t withdraw to the same
+        %1$s address twice.
+    </string>
+    <string name="whitelist_tip">When this function is turned on, your account will only be able to
+        withdraw to whitelisted withdrawal addresses. When this function is turned off, your account
+        is able to withdraw to any withdrawal address.
+    </string>
+    <string name="remove_whitelist">Remove Whitelist</string>
+    <string name="add_whitelist">Add Whitelist</string>
+    <string name="_confirm">Confirm</string>
+
+    <!--simplex-->
+    <string name="order_amount">Order Amount</string>
+    <string name="total_charge">Total Charge (fee included)</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="notice">Notice</string>
+    <string name="why_credit_card">Why Credit Card?</string>
+    <string name="res_fast">Fast: Average 10&#8211;30 mins for cryptocurrency to reach your wallet
+    </string>
+    <string name="res_low_fees">Simplex charges 2.5% per transaction for EEA users and 3.5% for non-EEA users (10 USD minimum) Users can save 2-3% FX fee when selecting your local currency.
+    </string>
+    <string name="res_convenient">Convenient: Visa and MasterCard accepted</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="notice_1">The crypto amount quoted is based on the current rate and is not final.
+        If the rate changes by more than +/-2.5% you will be asked to reconfirm the transaction via
+        email from Simplex
+    </string>
+    <string name="notice_2">Once payment is completed, you can check your payment status on Simplex
+        and deposit history on Binance
+    </string>
+    <string name="notice_3">If you have any questions, please contact Simplex customer support
+    </string>
+    <string name="notice_2_key1">payment status</string>
+    <string name="notice_2_key2">deposit history</string>
+    <string name="notice_3_key">customer support</string>
+    <string name="confirm_your_order">Confirm Your Order</string>
+    <string name="simplex_confirm_check">Please check the details of your order are correct before
+        continuing with the payment process.
+    </string>
+    <string name="confirm_order_amount">Order amount</string>
+    <string name="confirm_deposit_to_account">Deposit to account</string>
+    <string name="confirm_total_charge">Total charge</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_content">You will now leave Binance.com and be taken to Simplex.com.
+        Services relateling to credit card payments are provided by Simplex, which is a separate
+        platform owned by a third party. Please read and agree to the Terms of Use of Simplex before
+        using the service. For any questions relating to credit card payments, please contact
+        support@simplex.com. Binance does not assume any responsibility for any loss or damage
+        caused by the use of the credit card payment service.
+    </string>
+    <string name="disclaimer_content_key">Terms of Use</string>
+    <string name="confirm_agreed">I have read and agreed the disclaimer</string>
+    <string name="confirm_accept">Accept, go to payment</string>
+    <string name="input_check_positive_value">Amount must be a positive value</string>
+    <string name="simplex_check_min_tip">Minimum is %d USD or equivalent</string>
+    <string name="simplex_check_max_tip">Maximum is %d USD or equivalent</string>
+    <string name="warning">Warning</string>
+    <string name="region_unavailable">Your region is currently unavailable.</string>
+    <string name="back">Back</string>
+    <string name="_understand_continue">I understand,Continue</string>
+
+    <!--scan to login-->
+    <string name="_confirm_login">Confirm Login</string>
+    <string name="please_check">Please Check</string>
+    <string name="qr_code_check_tip">
+        <![CDATA[That you are visiting <b>https://www.binance.com</b> don\'t scan QR codes from unknown sources.]]></string>
+    <string name="_got_it">Got it</string>
+    <string name="_rescan">Rescan</string>
+    <string name="qr_code_expired">The QR code has expired, Please refresh the QR Code and scan
+        again.
+    </string>
+    <string name="qr_code_not_support_due_to_low_version">Unable to recognize QR code due to your
+        client version being too low. Please upgrade your client.
+    </string>
+    <string name="unable_reco_qr_code">Unable to recognize QR code.</string>
+
+    <!--debug panel-->
+    <string name="change_env">Change Env</string>
+    <string name="fps_chart">Fps Chart</string>
+    <string name="router">router</string>
+
+    <!--fees-->
+    <string name="fees">Fees</string>
+    <string name="level_title">level</string>
+    <string name="trade_volume_and_bnb_hold_title">30d Trade Volume(BTC)&#038;\nBNB holdings
+    </string>
+    <string name="maker_taker_title">Maker&#038;\nTaker</string>
+    <string name="maker_taker_use_bnb_title">Maker&#038;\nTaker Using BNB</string>
+    <string name="maker_and_taker">Maker&#032;&#038;&#032;Taker:</string>
+    <string name="maker_and_taker_use_bnb">Maker&#032;&#038;&#032;Taker Using BNB:</string>
+    <string name="level_fees">Levels &#038; Fees</string>
+    <string name="general">General</string>
+    <string name="fmt_tmaker_taker_use_bnb">%1$.4f%% &#038;\n%2$.4f%%</string>
+    <string name="fmt_maker_taker">%1$.4f%% &#038;\n%2$.4f%%</string>
+    <string name="fmt_trade_volume_and_bnb_hold">≥ %1$d BTC &#038;\n≥ %2$d BNB</string>
+    <string name="fmt_level">VIP %1$s</string>
+    <string name="fmt_general_trade_volume_and_bnb_hold">&lt;%1$d BTC or\n≥ %2$d BNB</string>
+    <string name="tip_login">Login to see your level &#038; fees</string>
+    <string name="trade_fees">Trading Fees</string>
+    <string name="general_fee">General:0.1% trading fee.</string>
+    <string name="past_30_day_trading_volume">Past 30-day trading volume (in BTC)</string>
+    <string name="trade_fee_1">By default, if you hold BNB in your account, your trading fees will
+        be automatically subtracted from your BNB balance. Using BNB for transaction fees applies a
+        %1$s%% discount to your trading fee will be applied (subject to change).
+    </string>
+    <string name="trade_fee_2">Trading fees are determined based on trading volume over a 30-day
+        period (in BTC) and BNB balance.
+    </string>
+    <string name="trade_fee_3">At %1$s AM (UTC) every day, your trading volume over the past 30-day
+        period
+        and your current BNB balance are evaluated. Your Tier level and corresponding maker/taker
+        fees are updated %2$s hour later.
+    </string>
+    <string name="upgrade_level">To upgrade to VIP %1$s</string>
+    <string name="date_utc">Date UTC</string>
+    <string name="trade_volume">Volume(BTC)</string>
+    <string name="trade_volume_for_thirty_days">Past 30-day trading volume</string>
+    <string name="your_bnb_balance">Your BNB balance</string>
+    <!--order-->
+    <string name="total_value_must_be_at_least">Total value must be at least %1$s</string>
+    <string name="_all_market">All Market</string>
+
+    <string name="feedback_note">Feedback lets you send error logs about our products. We welcome
+        problem reports.
+    </string>
+    <!-- chat-->
+    <string name="keep">keep</string>
+    <string name="end">end</string>
+    <string name="type_question">Type your question here</string>
+    <string name="time_count_tip">Since there is no further query from you for a while, Bibi will
+        leave this conversation after %1$s seconds. If you want to continue the service, please send
+        us your questions.
+    </string>
+    <string name="timeout_close_tip">Due to long time no response, your last session was ended.
+    </string>
+    <string name="rate_service">Please rate this chat</string>
+    <string name="leave">send</string>
+    <string name="thanks">Thank You!</string>
+
+    <!--market filter-->
+    <string name="filter">Filter</string>
+    <string name="filter_guide">Choose coin here</string>
+
+    <!--margin term-->
+    <string name="trade_exchange">Spot</string>
+    <string name="trade_margin">Margin</string>
+    <string name="not_now">Cancel</string>
+    <string name="important_reminder">Important reminder</string>
+    <string name="i_have_read_and_agreed">I have read and agreed to the disclaimer</string>
+    <string name="margin_trad">Margin trading confers a higher profit potential than traditional trading, but also greater risks. Please be aware that in the event of extreme margin volatility, there is even a risk that your assets may be liquidated.</string>
+    <string name="title_open_margin_term">Open Margin Account</string>
+    <string name="open_margin_term">Open margin account</string>
+
+    <!--margin balance detail-->
+    <string name="margin_balance_total">Total</string>
+    <string name="margin_available">Available</string>
+    <string name="margin_borrowed">Borrowed</string>
+    <string name="margin_interest">Interest</string>
+    <string name="margin_estimated_value_cash">Estimated Value</string>
+    <string name="margin_estimated_value_btc">Estimated Value (BTC)</string>
+
+    <!--margin transfer-->
+    <string name="_transfer">Transfer</string>
+    <string name="_borrow">Borrow</string>
+    <string name="_repay">Repay</string>
+    <string name="risk">Risk:</string>
+    <string name="exchange_wallet">Spot Wallet</string>
+    <string name="margin_wallet">Margin Wallet</string>
+    <string name="your_input_">Your input amount is invalid</string>
+    <string name="amount_too_higher">Please enter an amount no higher than your available balance.</string>
+    <string name="transfer_successful">Transfer successful</string>
+
+    <!--margin asset history-->
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="transfer">Transfer</string>
+    <string name="borrow">Borrowing</string>
+    <string name="repay">Repay</string>
+
+    <string name="cash_account">Spot</string>
+    <string name="margin_account">Margin</string>
+    <string name="future_account">Futures</string>
+
+    <string name="total_debt">Total Debt</string>
+    <string name="account_equity">Account Equity</string>
+    <string name="available">Available</string>
+    <string name="borrowed">Borrowed:</string>
+    <string name="net_asset">Equity</string>
+    <string name="interest">Interest</string>
+    <string name="all_balance">All Balances</string>
+    <string name="hide_zero_balances">Hide 0 Balances</string>
+    <string name="show_zero_balances">Show 0 Balances</string>
+    <string name="small_balance_convert_to_bnb">
+        small balances to convert BNB
+    </string>
+    <string name="level_tip">Margin Level = Total Asset Value / ( Total Borrowed Value + Total Accrued Interest Value )</string>
+    <string name="account_equity_tip">Account Equity = Total balance - Total Debt</string>
+
+    <!--margin history-->
+    <string name="margin_history_title">Margin History</string>
+    <string name="low_risk">%1$s Low Risk</string>
+    <string name="moderate_risk">%1$s Moderate Risk</string>
+    <string name="high_risk">%1$s High Risk</string>
+
+    <string name="coin_date">Coin/Date</string>
+    <string name="amount_interest">Principal Amount/Interest</string>
+    <string name="transfer_type">Type (IN/OUT)</string>
+    <string name="daily_interest_rate">Daily Interest Rate</string>
+    <string name="__total">Total</string>
+
+
+    <string name="hour_interest">1-hour interest:</string>
+    <string name="interest_explain">An 1-hour interest will accrue as soon as tokens are borrowed
+        and it will continue to accrue every hour
+    </string>
+    <string name="max_borrow_amount">Maximum Borrow Amount:</string>
+    <string name="confirm_borrow">Confirm borrow</string>
+    <string name="borrow_success">borrow successful</string>
+    <string name="_repayment">Repayment</string>
+
+    <string name="all_borrow">All Borrow:</string>
+    <string name="debt">Debt:</string>
+    <string name="confirm_repayment">Confirm repayment</string>
+    <string name="repayment_success">Repayment successful</string>
+
+    <string name="max_borrow_limit">Please enter an amount no higher than your borrow limit</string>
+    <string name="repay_min_borrow_limit">If you are not repaying 100%% of your debt, the maximum you can repay at this time is %1$s</string>
+    <string name="zero_enter_limit">Please enter a valid amount</string>
+    <string name="min_repay_limit">Minimum repayment amount is %1$s</string>
+    <string name="min_enter_limit">Please enter an amount no lower than %1$s</string>
+    <string name="repay_debt_limit">Repay amount exceeds borrow amount</string>
+
+    <!--margin calls-->
+    <string name="type_date">Type/Date</string>
+    <string name="send_status">Send Status</string>
+    <string name="send_status_successful">Successful</string>
+    <string name="send_status_unsuccessful">Failed</string>
+
+    <!--margin liquidation-->
+    <string name="pair_date">Pair/Date</string>
+    <string name="price_average">Price/Average</string>
+    <string name="filled_total">Filled/Total</string>
+
+    <string name="margin_calls">Margin Calls</string>
+    <string name="liquidation">Liquidation</string>
+
+    <string name="choose_coin_empty_to_transfer">Your wallet is empty no coins for you to transfer</string>
+    <string name="choose_coin_empty_to_repay">Your wallet is empty no coins for you to repay</string>
+    <string name="choose_coin_empty_to_withdraw">Your wallet is empty no coins for you to withdraw</string>
+
+
+    <string name="margin_051998">System Busy</string>
+    <string name="margin_051999">System Error</string>
+    <string name="margin_051005">Transfer Failed</string>
+    <string name="margin_051007">You have pending transcation, please try again later</string>
+    <string name="margin_051009">This asset are not allowed to transfer into margin account currently</string>
+    <string name="margin_051019">This asset are not allowed to transfer into margin account currently</string>
+    <string name="margin_051004">Transferring out Failed</string>
+    <string name="margin_051020">Transferring in has been banned for this account</string>
+    <string name="margin_051021">Transferring out has been banned for this account</string>
+    <string name="margin_051022">Tranfer out amount exceeds max amount</string>
+    <string name="margin_051026">Your input amount is invalid</string>
+    <string name="margin_051006">Your borrow amount has exceed maximum borrow amount</string>
+    <string name="margin_051008">Borrow Failed</string>
+    <string name="margin_051010">Repay Failed</string>
+    <string name="margin_051014">Borrow is banned for this asset</string>
+    <string name="margin_051015">Borrow amount less than minimum borrow amount</string>
+    <string name="margin_051016">Borrow is banned for this account</string>
+    <string name="margin_051017">Repay amount exceeds borrow amount</string>
+    <string name="margin_051018">Repay amount less than minimum repay amount</string>
+    <string name="margin_051031">You can\'t borrow/transfer under current margin level</string>
+    <string name="margin_051032">The unpaid debt is too small after this repayment.</string>
+    <string name="margin_051003">Order Failed</string>
+    <string name="margin_051024">Margin account are not allowed to trade this trading pair</string>
+    <string name="margin_051042">Please wait for a while and try again later</string>
+    <string name="margin_051025">You account\'s trading is banned</string>
+    <string name="margin_200001003">User does not exist</string>
+    <string name="margin_001139">margin user cannot create margin account</string>
+    <string name="margin_001141">active margin account failed</string>
+    <string name="margin_001142">sub user cannot create margin account</string>
+    <string name="margin_001144">please pass 2fa before create margin account</string>
+    <string name="margin_001143">please pass kyc before create margin account</string>
+    <string name="margin_001140">don\'t create margin account again</string>
+    <string name="margin_001099">Dear User, as per our Terms of Use, we are unable to provide services to your account going forward. We appreciate your continued support.</string>
+    <string name="margin_051041">Currently, there is a lack of loanable assets in this currency.</string>
+
+    <!--    important reminder-->
+    <string name="detected_tips">Binance has detected a recent increase in fraudulent activities, such as:</string>
+    <string name="detected_tip1">Giveaways, competitions, and other promotions.</string>
+    <string name="detected_tip2">Advertisements guaranteeing profit by following advice from investment "experts".</string>
+    <string name="detected_tip3">Individuals impersonating Binance or other support representatives on social media.</string>
+    <string name="detected_tip4">Offers of exclusive sales for Binance Launchpad coins.</string>
+    <string name="check_tip">Please check all the activities on the Binance. Don\'t trust information from other sources.</string>
+
+
+    <!--lending project list-->
+    <string name="_lending">Lending</string>
+    <string name="_subscription_from">Subscription From:</string>
+    <string name="_subscription_to">Subscription To:</string>
+    <string name="lot_size">Lot size:</string>
+    <string name="individual_cap">Individual cap:</string>
+    <string name="coupon_per_lot">Coupon per lot:</string>
+    <string name="value_date">Value Date:</string>
+    <string name="redemption_date">Redemption Date:</string>
+    <string name="lot">Lot</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="expected_coupon">Expected coupon:</string>
+    <string name="total_cost">Total cost:</string>
+    <string name="display_available_only">Display available only</string>
+    <string name="start_time">Start Time</string>
+    <string name="_lot_size">Lot Size</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="duration">Duration</string>
+    <string name="you_have_no_lending_products">You have no product</string>
+    <string name="preparation">Preparation</string>
+    <string name="purchaing">Subscription</string>
+    <string name="purchased">Subscription ends</string>
+    <string name="deducted">Subscription ends</string>
+    <string name="accuring_interest">Accuring interest</string>
+    <string name="pre_redemption">Redemption</string>
+    <string name="redeemend">End</string>
+    <string name="lending_flexible">Flexible Deposits</string>
+    <string name="lending_fixed">Fixed Deposits</string>
+    <string name="total_interest_earned">Total Interest Earned</string>
+    <string name="today_interest_earned">Today\'s Interest Earned</string>
+    <string name="average_annual_return">Average Annual Return</string>
+    <string name="cumulative_interest">Cumulative Interest</string>
+
+    <!--lending subscribe-->
+    <string name="lot_amount">Lot Amount</string>
+    <string name="terms_of_use_lending">I have read and agreed to <Data><![CDATA[<font color="#f0b90b">Terms Of Use Lending</font>]]></Data> </string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="subscription_confirmation">Subscription Confirmation!</string>
+    <string name="goto_history">Go to the history</string>
+    <string name="subscription_verificat">We have received your subscription and corresponding assets have been frozen. The assets will be deducted on the value date.</string>
+    <string name="individual_cap_exceeded">Individual cap exceeded</string>
+    <string name="insufficient_available_balance">Insufficient available balance</string>
+
+    <!--lending history-->
+    <string name="subscription">Subscription</string>
+    <string name="redemption">Redemption</string>
+    <string name="redemption_principal">Redemption Principal</string>
+    <string name="redemption_interest">Redemption Interest</string>
+    <string name="redemption_amount">Redemption Amount</string>
+    <string name="lend_pending">Pending</string>
+    <string name="lend_subscription_succeeded">Subscribed</string>
+    <string name="lend_payment_done">Succeeded</string>
+    <string name="lend_failed">Failed</string>
+
+    <!--lending asset-->
+    <string name="coupon_estimated_value">Coupon Estimated Value</string>
+    <string name="holding">Holding</string>
+    <string name="holding_lot">Holding(Lot)</string>
+    <string name="subscription_date">Subscription Date</string>
+    <string name="duration_date">Duration Date</string>
+    <string name="arp">ARP</string>
+    <string name="order_details">Order details</string>
+    <string name="lending_coupon">Coupon</string>
+
+    <string name="lending_077011">There is not enough asset in your balance</string>
+    <string name="lending_077005">There is not enough product</string>
+    <string name="lending_077013">Pending</string>
+    <string name="lending_other_code">An error occurs. Please try again</string>
+    <string name="no_records_found">No records found</string>
+
+    <!--    upgrade -->
+    <string name="upgrade_tip">Update Notice</string>
+    <string name="upgrade_content">To update the Binance app normally, please go to your phone Settings —> Unknown Source, and allow Binance under it. This will only give permission for Binance app updates.</string>
+
+    <!--  capital -->
+    <string name="select_network">Select Network</string>
+    <string name="network_tip1">Send only %s to this deposit address</string>
+    <string name="network_tip2">Sending coins or tokens other than %s to this address may result in the loss of your deposit.</string>
+    <string name="generate">generate</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="trade_anywhere">Trade anywhere</string>
+    <string name="download_tip">Download the Binance App </string>
+  <!--  capital  end-->
+
+    <string name="kline_open_">Open:</string>
+    <string name="kline_high">High:</string>
+    <string name="kline_low">Low:</string>
+    <string name="kline_close">Close:</string>
+    <string name="kline_chg">Chg:</string>
+    <string name="kline_chgp">Chg%:</string>
+    <string name="kline_vol">Vol:</string>
+    <string name="kline_txn">Txn:</string>
+
+    <!--    c2c-chat-->
+    <string name="chat_input_your_content">Please enter content here</string>
+    <string name="chat_photos">Photo</string>
+    <string name="chat_take_photo">Take a photo</string>
+    <string name="chat_cannot_send_blank_message">You can not send blank message</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_un_known_message">The content is not supported by your version</string>
+    <string name="photos_processing_failed">Picture processing failed</string>
+    <string name="chat_user_buying_please_pay">Successfully placed an order, please pay within the time limit.</string>
+    <string name="chat_user_selling_waiting_for_payment">Successfully placed an order, please wait for buyer to pay</string>
+    <string name="chat_already_paid">You have marked the order as %1$s, please wait for seller to confirm and release the asset.</string>
+    <string name="chat_already_paid_1">%1$s（real name：%2$s）has marked the order as paid. Please confirm that you have received the payment and release the asset. Please note: Make sure to log into your account and confirm that you have received the payment before releasing the asset to avoid loss.</string>
+    <string name="chat_transaction_complete">Your payment has been received, the asset %s have been sent to your account. </string>
+    <string name="chat_transaction_complete_1">You have released the asset %1$s, the buyer will receive the %2$s soon. </string>
+    <string name="chat_commit_appeal">User %1$s has filed an appeal for the order %2$s, you will be contacted by customer support any time soon.</string>
+    <string name="chat_appeal_accepted">Successfully filed an appeal, you will be contacted by customer support any time soon.</string>
+    <string name="chat_order_cancelled">The order has been cancelled. Please contact customer support if you have any questions.</string>
+    <string name="chat_message_sending_hint">Sending message...Message sending will be cancelled when you close the window.</string>
+    <string name="chat_image_save_fail">Failed to save</string>
+    <string name="chat_save_picture_success">Successfully saved</string>
+    <string name="chat_click_retry">Click to reload</string>
+    <string name="chat_merchant_please_pay">Seller has placed an order, please pay within the time limit</string>
+    <string name="chat_merchant_waiting_for_payment">Buyer has placed an order, please wait for buyer to pay.</string>
+    <string name="copied">Copied</string>
+    <string name="buyer_appeal_completed">Appeal complete - Your crypto %s has been sent to your account.</string>
+    <string name="seller_appeal_completed">Appeal complete - Your crypto %s has been released to the buyer. Please contact customer support if you have any questions.</string>
+    <string name="cancel_appeal_completed">Your order has been canceled by the system. Please contact customer support if you have any questions.</string>
+    <string name="system_cancel_appeal">Appeal request has been canceled by the system. Please contact customer support if you have any questions.</string>
+
+    <string name="fiat_ad_guide">Experience more fiat advertising now!</string>
+
+    <!--    inbox-->
+    <string name="inbox_title">Message</string>
+    <string name="inbox_clear_all_hint">Are you sure  you want to clear all notifications?</string>
+    <string name="inbox_mark_all">Mark all read</string>
+    <string name="inbox_view_more">View more</string>
+    <string name="inbox_edit_notifications">Edit Notifications</string>
+    <string name="inbox_notification_management">Message Management</string>
+    <string name="inbox_notification_management_hint">Set the types of notifications to receive.</string>
+
+    <!--    fiat history-->
+    <string name="crypto">Crypto</string>
+    <string name="fiat">Fiat</string>
+    <string name="fiat_time">Date</string>
+    <string name="fiat_order_id">Order Id</string>
+    <string name="fiat_indicated_amount">Indicated Amount</string>
+    <!--    reward center-->
+    <string name="rc_reward_center">Reward Center</string>
+    <string name="rc_view_invalid_coupons">View all invalid coupons ></string>
+    <string name="rc_invalid_coupons">Invalid Coupons</string>
+    <string name="rc_no_coupons">No coupons.</string>
+    <string name="rc_use_now">Use now</string>
+    <string name="rc_used">Used</string>
+    <string name="rc_expired">Expired</string>
+    <string name="rc_before_time">Before %s (UTC)</string>
+    <string name="rc_instructions">Instructions</string>
+    <string name="rc_open_account_hint">Reward will be available once you open a %s account </string>
+    <string name="rc_no_account">No %s Account Yet?</string>
+    <string name="rc_confirm_hint">Once a voucher is redeemed, a reward will be credited into your %s account. </string>
+    <string name="rc_to_open_account">Open a %s account</string>
+    <string name="rc_to_account">Go to my %s account</string>
+    <string name="rc_redeem_success">Successfully Redeemed</string>
+    <string name="rc_redeem_coupons">Redeem a voucher?</string>
+    <string name="rc_use_coupons">Redeem the voucher/coupon to claim your reward</string>
+    <string name="rc_system_error">System Error, Please Try Again Later</string>
+    <string name="rc_experince_hint">A welcome bonus will be credited into your futures account once the Bonus Voucher is redeemed. You can check the distribution of the welcome bonuses via Wallet > Futures Wallet.<![CDATA[<br/><font color=\'#f0b90b\'>Check the rules of futures bonus</font>]]></string>
+    <string name="rc_spot_hint">An equivalence airdrop will be credited into your corresponding account once the Cash Voucher is redeemed.</string>
+
+    <string name="not_install_facebook">没有安装facebook！</string>
+    <string name="not_install_tg">没有安装telegram！</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="snapshot_ca">* Snapshot can help you share binance to your friends more efficiently.\n* With this function on, snapshot will show your referral code when you are logged in.</string>
+    <string name="permission_is_not_available_requesting_external_storage">Permission is not available. Requesting external storage permission.</string>
+
+    <!--    multi devices-->
+    <string name="md_logout_hint">Are you sure you want to log out this device?</string>
+    <string name="world_leading">The World\'s Leading</string>
+    <string name="cryptocurrency_exchange">Cryptocurrency Exchange</string>
+    <string name="trade_now">Trade Bitcoin, BNB, and hundreds of other cryptocurrencies in minutes.</string>
+    <string name="share_app">Share the app</string>
+    <string name="md_loged_in_devices">Logged in to Binance on %s</string>
+    <string name="md_current_device_title">Currently logged in</string>
+    <string name="md_current_device">Logged in here</string>
+    <string name="md_current_loged">Logged in</string>
+    <string name="share_the_app">Share the app</string>
+
+
+    <!-- face++ -->
+    <string name="face_verification_success">Verification Succeed</string>
+    <string name="face_verification_failed">Verification Failed</string>
+    <string name="face_verification_failed_tip">Make sure identity information matches uploaded document. Please contact customer support if you still have problems.</string>
+    <string name="face_start">start</string>
+
+</resources>
+
