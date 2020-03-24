@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name"></string>
+
+    <string name="central_loading"></string>
+    <string name="facebook_app_id"></string>
+    <string name="network_request_failed"></string>
+    <string name="network_request_timeout"></string>
+
+    <!--kline-->
+    <string name="kv_ema"></string>
+    <string name="kv_sma"></string>
+    <string name="kv_boll"></string>
+    <string name="kv_vol"></string>
+    <string name="kv_macd"></string>
+    <string name="kv_kdj"></string>
+    <string name="kv_rsi"></string>
+    <string name="kv_wr"></string>
+
+    <!--placeholder-->
+    <string name="placeholder"></string>
+    <string name="symbol_placeholder"></string>
+
+    <!--tabs-->
+    <string name="index"></string>
+    <string name="markets"></string>
+    <string name="trades"></string>
+    <string name="funds"></string>
+    <string name="account"></string>
+    <string name="choose_markets"></string>
+    <string name="user_total_btc"></string>
+    <string name="coin_list"></string>
+
+
+    <!--index-->
+    <string name="_support"></string>
+    <string name="btc_24h_volume_top"></string>
+    <string name="volume_btc"></string>
+    <string name="gainers"></string>
+    <string name="losers"></string>
+    <string name="more"></string>
+    <string name="credit_card"></string>
+    <string name="format_market"></string>
+    <string name="launchpad"></string>
+
+    <!--market-->
+    <string name="vol"></string>
+    <string name="format_vol"></string>
+    <string name="_price"></string>
+    <string name="_total"></string>
+    <string name="decimal"></string>
+    <string name="h24_change"></string>
+    <string name="depth"></string>
+    <string name="trade_history"></string>
+    <string name="time"></string>
+    <string name="btc_value"></string>
+    <string name="_Pair"></string>
+    <string name="_new_pair"></string>
+    <string name="last_price"></string>
+    <string name="h24_chg"></string>
+    <string name="market_price"></string>
+    <string name="_high"></string>
+    <string name="_low"></string>
+    <string name="_book"></string>
+    <string name="indicator"></string>
+    <string name="compare_markets"></string>
+
+    <string name="format_symbol"></string>
+    <string name="format_price_tag"></string>
+    <string name="format_amount_tag"></string>
+    <string name="format_decimal"></string>
+    <string name="format_decimals"></string>
+    <string name="_decimals"></string>
+
+
+    <!--trades-->
+    <string name="percent_25"></string>
+    <string name="percent_50"></string>
+    <string name="percent_75"></string>
+    <string name="percent_100"></string>
+    <string name="total"></string>
+    <string name="_amount"></string>
+    <string name="_available_"></string>
+    <string name="_buy"></string>
+    <string name="_sell"></string>
+    <string name="no_trade_history"></string>
+    <string name="avbl"></string>
+    <string name="bid"></string>
+    <string name="ask"></string>
+    <string name="limit_order"></string>
+    <string name="market_order"></string>
+    <string name="oco_order"></string>
+    <string name="market_trades"></string>
+    <string name="price_high_than_latest_price">\n        \n    </string>
+    <string name="price_low_than_latest_price">\n        \n    </string>
+
+    <string name="market_price_high_than_latest_price">\n         \n    </string>
+    <string name="market_price_low_than_latest_price">\n         \n    </string>
+
+    <string name="format_buy_stop_loss">\n        \n    </string>
+    <string name="format_buy_take_profit">\n        \n    </string>
+    <string name="format_sell_stop_loss">\n        \n    </string>
+    <string name="format_sell_take_profit">\n        \n    </string>
+    <string name="oco_buy_price_greater_than_close"></string>
+    <string name="oco_buy_stop_lower_than_close"></string>
+    <string name="oco_buy_stop_lower_than_price"></string>
+    <string name="oco_sell_price_lower_than_close"></string>
+    <string name="oco_sell_stop_greater_than_close"></string>
+    <string name="oco_sell_stop_greater_than_price"></string>
+    <string name="limit_price"></string>
+    <string name="stop_price"></string>
+    <string name="stop_limit_price"></string>
+    <string name="amount_total"></string>
+
+    <string-array name="trade_tabs">
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="array_leverage_rate" translatable="false">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="leverage_unit" translatable="false"></string>
+
+
+    <!--open orders-->
+    <string name="open_orders"></string>
+    <string name="margin_open_orders"></string>
+    <string name="_history"></string>
+    <string name="_filled"></string>
+    <string name="_cancel_all"></string>
+    <string name="are_u_sure_cancel_all"></string>
+    <string name="sell_orders"></string>
+    <string name="buy_orders"></string>
+    <string name="in_order"></string>
+    <string name="hide_other_pairs"></string>
+    <string name="buy_limit"></string>
+    <string name="sell_limit"></string>
+    <string name="stop_limit"></string>
+    <string name="buy_market"></string>
+    <string name="sell_market"></string>
+    <string name="limit_maker"></string>
+
+    <!--funds balance-->
+    <string name="balance"></string>
+    <string name="i_understand_continue"></string>
+    <string name="hide_small_balance"></string>
+    <string name="show_all_balance"></string>
+    <string name="use_new_address"></string>
+    <string name="estimated_value_btc"></string>
+    <string name="estimated_value_cash"></string>
+
+    <string name="_available"></string>
+
+    <string name="hide_balance"></string>
+    <string name="transaction_history"></string>
+    <string name="balance_total"></string>
+    <string name="go_to_trade"></string>
+    <string name="format_stop_coin"></string>
+    <string name="format_limit_coin"></string>
+    <string name="format_price_coin"></string>
+    <string name="format_amount_coin"></string>
+    <string name="format_total_coin"></string>
+    <string name="format_equivalent_coin_to_money"></string>
+
+    <string name="format_coin_to_money"></string>
+    <string name="format_balance_btc"></string>
+    <string name="format_balance_usdt"></string>
+    <string name="transaction_history_fiat_hint"></string>
+
+
+    <!--depowithdrawawal-->
+    <string name="_deposit"></string>
+    <string name="_withdrawal"></string>
+    <string name="you_have_no_address"></string>
+    <string name="copy_address"></string>
+    <string name="save_image"></string>
+    <string name="fee"></string>
+    <string name="daily_withdrawal_limit_"></string>
+    <string name="higher_limit"></string>
+    <string name="withdrawals_history"></string>
+    <string name="deposits_history"></string>
+    <string name="txid"></string>
+    <string name="copy_txid"></string>
+    <string name="copy_successful"></string>
+    <string name="save_successful"></string>
+    <string name="save_failed"></string>
+    <string name="daily_withdraw_limit_"></string>
+    <string name="no_less_than_minimum"></string>
+    <string name="transaction_fee"></string>
+    <string name="you_will_get"></string>
+    <string name="address"></string>
+    <string name="address_cannot_be_null"></string>
+    <string name="available_balance"></string>
+    <string name="amount_cannot_be_null"></string>
+    <string name="withdrawal_must_be_at_least"></string>
+    <string name="not_enough"></string>
+    <string name="suspend"></string>
+    <string name="max"></string>
+    <string name="max_all"></string>
+    <string name="max_borrow"></string>
+    <string name="tag_"></string>
+    <string name="label_can_not_be_empty"></string>
+    <string name="address_can_not_be_empty"></string>
+    <string name="limited_release_update"></string>
+    <string name="block_chain_explorer"></string>
+    <string name="withdraw_amount"></string>
+    <string name="limit_and_notice"></string>
+    <string name="new_address"></string>
+    <string name="show_qr_code"></string>
+    <string name="status"></string>
+    <string name="confirmations"></string>
+    <string name="check_export"></string>
+    <string name="date"></string>
+    <string name="Label"></string>
+    <string name="withdrawal_detail"></string>
+    <string name="deposit_detail"></string>
+    <string name="no_tag"></string>
+    <string name="link_in_the_email_not_working_enter_the_verification_code">\n         \n    </string>
+    <string name="confirm_withdrawal"></string>
+    <string name="the_verification_code"></string>
+    <string name="please_enter_the_verification_code_in_the_email_to_confirm_the_withdrawal">\n        \n    </string>
+    <string name="go_to_web_set_white_status"> \n        \n    </string>
+
+    <string name="format_asset_label_is_required"></string>
+    <string name="format_withdraw_limit">  \n\n \n    </string>
+    <string name="format_daily_withdrawal_limit_btc"> </string>
+    <string name="format_deposit_suspend"></string>
+    <string name="format_withdraw_suspend"></string>
+    <string name="format_deposit_address"></string>
+    <string name="format_deposit_tag"></string>
+    <string name="format_minimum_withdrawal"> \n\n\n         \n        \n\n\n        \n    </string>
+
+
+    <!--account-->
+    <string name="fav_pair"></string>
+    <string name="favorites"></string>
+    <string name="add_favorites"></string>
+    <string name="edit_favorites"></string>
+    <string name="Logout"></string>
+    <string name="using_bnb_to_pay_for_fees_50_discount">\n    </string>
+    <string name="format_using_bnb_to_pay_for_fees_50_discount">\n        \n    </string>
+    <string name="identity_authentication"></string>
+    <string name="unverified"></string>
+    <string name="verification_completed"></string>
+    <string name="verification_documents"></string>
+    <string name="referral_id_optional"></string>
+    <string name="referral_id_is_invalid"></string>
+    <string name="goto_finish_google_authenticator">\n        <tt>(www.binance.com)</tt>\n        </string>
+    <string name="goto_finish_sms_authenticator">\n        <tt>(www.binance.com)</tt>\n        </string>
+    <string name="goto_finish_verification_documents">\n        <tt>(www.binance.com)</tt>\n        </string>
+    <string name="protocol"></string>
+    <string name="level_1"></string>
+    <string name="_setting"></string>
+    <string name="year_report"></string>
+    <string name="referral_program"></string>
+    <string name="share_year_report"></string>
+    <string name="finish_2fa_tip"> \n        \n    </string>
+
+    <string name="format_lv"></string>
+
+
+    <!--login register password-->
+    <string name="_login"></string>
+    <string name="logout_success"></string>
+    <string name="login_expired_please_login_again"> \n        \n    </string>
+    <string name="register"></string>
+    <string name="reset_password"></string>
+    <string name="change_password"></string>
+    <string name="already_registered"></string>
+    <string name="I_agree_to_binance"></string>
+    <string name="terms_of_use"></string>
+    <string name="old_password"></string>
+    <string name="new_password"></string>
+    <string name="repeat_new_password"></string>
+    <string name="set_new_password"></string>
+    <string name="please_accept_term"></string>
+    <string name="password_must_be_at_least_eight_chars">\n        \n    </string>
+    <string name="the_password_cant_be_empty"></string>
+    <string name="_password"></string>
+    <string name="dont_have_an_account_yet"></string>
+    <string name="forgot_your_password"></string>
+    <string name="confirm_password"></string>
+    <string name="passwords_do_not_match"></string>
+    <string name="invalid_password"></string>
+
+
+    <!--email sms google auth-->
+    <string name="google_authenticator"></string>
+    <string name="sms_authenticator"></string>
+    <string name="u_will_receive_email">\n         \n    </string>
+    <string name="we_have_sent_verification_message">\n        \n    </string>
+    <string name="verify_your_email"></string>
+    <string name="resend_mail_"></string>
+    <string name="resend_mail"></string>
+    <string name="change_sms_auth"></string>
+    <string name="_email"></string>
+    <string name="google_authenticator_code"></string>
+    <string name="sms_authenticator_code"></string>
+    <string name="_2fa"></string>
+    <string name="enter_email_format_error"></string>
+    <string name="google_auth"></string>
+    <string name="sms_auth"></string>
+    <string name="send_sms"></string>
+    <string name="the_email_cant_be_empty"></string>
+    <string name="please_do_not_disclose_sms_and_google">\n        \n    </string>
+    <string name="resend_successful"></string>
+    <string name="please_check_your_email">\n         \n    </string>
+    <string name="if_u_not_received_email"></string>
+    <string name="paste"></string>
+    <string name="not_receive_email"> </string>
+    <string name="not_receive_pls_resend_email"></string>
+    <string name="confirm_new_device_login"></string>
+    <string name="confirm_new_device_login_hint"> </string>
+    <string name="voice_msg_send_success"></string>
+    <string name="voice_msg_send_to"></string>
+    <string name="voice_msg_send_hint"> &lt;br/&gt; </string>
+    <string name="sms_msg_send_hint"></string>
+    <string name="resend_sms_countdown"></string>
+    <string name="voice_verification"></string>
+
+
+    <!--finger gesture-->
+    <string name="touch_id"></string>
+    <string name="pattern"></string>
+    <string name="change_pattern"></string>
+    <string name="draw_pattern"></string>
+    <string name="verify_finger"></string>
+    <string name="please_close_touch_id_first"></string>
+    <string name="please_close_pattern_first"></string>
+    <string name="fingerprint_not_match"></string>
+    <string name="at_least_4_points_required"></string>
+    <string name="android_version_not_support_touchid">\n        \n    </string>
+    <string name="attempt_s_left"></string>
+    <string name="draw_pattern_again"></string>
+    <string name="not_match_please_draw_again"></string>
+    <string name="password_login"></string>
+    <string name="touch_in"></string>
+    <string name="pattern_not_open"></string>
+    <string name="check_pattern"></string>
+
+
+    <!--function-->
+    <string name="search_results_"></string>
+    <string name="please_input_keywords"></string>
+    <string name="select_coin"></string>
+
+    <string name="format_current"></string>
+
+
+    <!--information-->
+    <string name="About"></string>
+    <string name="language"></string>
+    <string name="EN"></string>
+    <string name="CN"></string>
+    <string name="ES"></string>
+    <string name="KO"></string>
+    <string name="TR"></string>
+    <string name="VI"></string>
+    <string name="RU"></string>
+    <string name="contact_us"></string>
+    <string name="feedback"></string>
+
+
+    <!--status-->
+    <string name="success"></string>
+    <string name="failed"></string>
+    <string name="Failure"></string>
+    <string name="no_more_data"></string>
+
+
+    <!--action-->
+    <string name="_Submit"></string>
+    <string name="_cancel"></string>
+    <string name="click_exit_again"></string>
+    <string name="_search"></string>
+    <string name="Yes"></string>
+    <string name="No"></string>
+    <string name="OK"></string>
+    <string name="ON"></string>
+    <string name="OFF"></string>
+    <string name="delete"></string>
+    <string name="copy"></string>
+    <string name="done"></string>
+    <string name="top"></string>
+    <string name="sort"></string>
+    <string name="i_understand"></string>
+    <string name="full"></string>
+    <string name="canceled"></string>
+
+
+    <!--k line-->
+    <string name="k_time"></string>
+    <string name="k_1min"></string>
+    <string name="k_5min"></string>
+    <string name="k_15min"></string>
+    <string name="k_30min"></string>
+    <string name="k_1h"></string>
+    <string name="k_2h"></string>
+    <string name="k_4h"></string>
+    <string name="k_6h"></string>
+    <string name="k_12h"></string>
+    <string name="k_1d"></string>
+    <string name="k_1w"></string>
+    <string name="k_1mon"></string>
+
+    <string name="format_k_detail_o"></string>
+    <string name="format_k_detail_h"></string>
+    <string name="format_k_detail_l"></string>
+    <string name="format_k_detail_c"></string>
+    <string name="format_k_detail_txn"></string>
+    <string name="format_k_detail_change"></string>
+
+
+    <!--network-->
+    <string name="data_request_failed"></string>
+
+
+    <!--asset-->
+    <string name="format_cash"></string>
+    <string name="format_dollar"></string>
+
+
+    <!--none group-->
+    <string name="foot"></string>
+    <string name="slash"></string>
+    <string name="left_k"></string>
+    <string name="k_right"></string>
+    <string name="_default"></string>
+
+    <string name="format_double_string"></string>
+    <string name="format_timer_s"></string>
+    <string name="format_original_amount"></string>
+    <string name="format_two_fa_phone_number"></string>
+    <string name="format_brackets"></string>
+
+
+    <!--order history-->
+    <string name="order_filter"></string>
+    <string name="_all"></string>
+    <string name="_1_day"></string>
+    <string name="_1_week"></string>
+    <string name="_1_month"></string>
+    <string name="_3_month"></string>
+    <string name="_coin"></string>
+    <string name="_Type"></string>
+    <string name="buy_and_sell"></string>
+    <string name="hide_all_canceled"></string>
+    <string name="order_history"></string>
+    <string name="price_avg"></string>
+    <string name="amount_filled"></string>
+    <string name="filled_amount"></string>
+    <string name="avg_price"></string>
+    <string name="_filter"></string>
+    <string name="select_market"></string>
+    <string name="_type_"></string>
+    <string name="_date_"></string>
+    <string name="clear"></string>
+    <string name="order_detail"></string>
+    <string name="conditions"></string>
+    <string name="_coin_"></string>
+    <string name="_market_"></string>
+    <string name="format_slash_"></string>
+    <string name="format_double_string_no_blank"></string>
+    <string name="format_partial_fill"></string>
+    <string name="reset"></string>
+    <string name="you_have_no_order_history"></string>
+    <string name="_limit"></string>
+    <string name="_market"></string>
+    <string name="simple_market_price"></string>
+    <string name="trading_price"></string>
+    <string name="filled_means_amount"></string>
+    <string name="trade_detail"></string>
+    <string name="_complete"></string>
+    <string name="_buy_b"></string>
+    <string name="_sell_s"></string>
+
+    <!--qr code-->
+    <string name="scan_qr_code"></string>
+    <string name="camera_permission_request_was_denied">\n    </string>
+    <string name="required_to_display_the_camera_preview">\n        \n    </string>
+    <string name="storage_access_is_required">\n    </string>
+    <string name="permission_is_not_available_requesting_camera_permission">\n         \n    </string>
+    <string name="ok"></string>
+
+
+    <!--gauth-->
+    <string name="download_and_install"></string>
+    <string name="backup_key"></string>
+    <string name="enter_key"></string>
+    <string name="setup_code"></string>
+    <string name="_next"></string>
+    <string name="download_and_install_gauth">\n        \n    </string>
+    <string name="please_save_key_on_paper"> \n        \n    </string>
+    <string name="please_enter_key"></string>
+    <string name="gauth_tutorial">\n        \n    </string>
+    <string name="fa_key_do_not_match"> \n    </string>
+    <string name="login_password"></string>
+    <string name="already_open_google_auth"> \n        \n        <tt>(www.binance.com)</tt></string>
+
+    <!--other-->
+    <string name="binance_com_all_rights_reserved"></string>
+    <string name="google_authenticator_for_android"></string>
+    <string name="download"></string>
+
+    <string name="change_password_notice">\n        \n    </string>
+
+    <string name="fee_"></string>
+    <string name="_tag"></string>
+    <string name="copy_tag"></string>
+    <string name="login_failed"></string>
+    <string name="register_failed"></string>
+
+    <string name="search_history"></string>
+    <string name="security"></string>
+    <string name="clean_cache"></string>
+    <string name="zero_mb"></string>
+    <string name="format_mb"></string>
+
+    <string name="phone_number"></string>
+    <string name="enter_your_phone_number"></string>
+    <string name="enter_your_verification_code"></string>
+    <string name="enter_your_google_code"></string>
+
+    <string name="about_stop_limit">\n        \n    </string>
+    <string name="about_oco">  </string>
+    <string name="view_more"></string>
+    <string name="disable_sms_authentication"></string>
+    <string name="disable_google_authentication"></string>
+
+    <string name="alpha_beta_filter"></string>
+    <string name="the_stop_price_cannot_equal_to_last_price">\n        \n    </string>
+    <string name="loading"></string>
+    <string name="order_would_trigger_immediately"></string>
+
+    <string name="widget_tickets"></string>
+    <string name="select"></string>
+    <string name="_save"></string>
+    <string name="edit_tickets"></string>
+    <string name="currency"></string>
+    <string name="enable_dark_mode"></string>
+    <string name="like_us_on_facebook"></string>
+    <string name="follow_us_on_twitter"></string>
+    <string name="join_us_on_telegram"></string>
+    <string name="check_for_updates"></string>
+    <string name="version_up_to_date"></string>
+    <string name="unbind_mobile_notice">\n        \n    </string>
+    <string name="unbind_google_auth_notice">\n        \n    </string>
+    <string name="login_or_register"></string>
+    <string name="color_preference"></string>
+    <string name="style_setting"></string>
+    <string name="green_red"></string>
+    <string name="red_green"></string>
+    <string name="style_1"></string>
+    <string name="confirm"></string>
+    <string name="style_2"></string>
+    <string name="large_price_difference_between_your_order_and_latest_trade">\n         \n    </string>
+    <string name="place_order"></string>
+
+    <string name="convert_to_bnb"></string>
+    <string name="_name"></string>
+    <string name="approx_bnb_value"></string>
+    <string name="you_have_selected"></string>
+    <string name="coins"></string>
+    <string name="fee_bnb"></string>
+    <string name="converted_bnb"></string>
+    <string name="conversion_history"></string>
+    <string name="total_amount"></string>
+    <string name="conversion_detail"></string>
+    <string name="approx_bnb_value_is"></string>
+    <string name="format_net_of_bnb_fee"></string>
+    <string name="format_approximately_equal"></string>
+    <string name="there_is_no_convertible_currency"></string>
+    <string name="equity_value_btc"></string>
+    <string name="a"></string>
+
+    <!--Pull to refresh-->
+    <string name="cube_ptr_pull_down"></string>
+    <string name="cube_ptr_pull_down_to_refresh"></string>
+    <string name="cube_ptr_release_to_refresh"></string>
+    <string name="cube_ptr_refreshing"></string>
+    <string name="cube_ptr_refresh_complete"></string>
+
+    <string name="cube_ptr_last_update"> </string>
+    <string name="cube_ptr_seconds_ago"> </string>
+    <string name="cube_ptr_minutes_ago"> </string>
+    <string name="cube_ptr_hours_ago"> </string>
+
+    <string name="pull_to_refresh_pull_label"></string>
+    <string name="pull_to_refresh_release_label"></string>
+    <string name="pull_to_refresh_refreshing_label"></string>
+
+    <!--Help-->
+    <string name="we_want_to_help_you_to_use_binance_and_take_advantage_of_all_its_features">\n        \n    </string>
+    <string name="you_can_check_our_help_center_for_common_questions_and_tutorials">\n        \n    </string>
+    <string name="live_chat_and_messaging"></string>
+    <string name="help_center_faq"></string>
+    <string name="submit_request"></string>
+    <string name="chat"></string>
+    <string name="help_support"></string>
+    <string name="new_ip_address_detected"></string>
+    <string name="format_new_ip_address_notice">\n         \n        \n    </string>
+    <string name="_scan"></string>
+
+    <!--zendesk-->
+    <string name="chat_not_in_operating_time"> \n        \n         \n    </string>
+    <string name="pre_chat_account_offline_dialog_message">\n         \n        \n    </string>
+    <string name="chat_name"></string>
+    <string name="chat_email_address"></string>
+    <string name="chat_message"></string>
+    <string name="chat_select_a_department"></string>
+    <string name="chat_select_a_language"></string>
+    <string name="chat_starting_chat"></string>
+    <string name="chat_end_this_chat"></string>
+    <string name="chat_your_chat_session_will_be_closed">\n        </string>
+    <string name="pre_chat_name_is_required"></string>
+    <string name="pre_chat_email_is_required"></string>
+    <string name="pre_chat_department_is_required"></string>
+    <string name="pre_chat_message_is_required"></string>
+    <string name="chat_next"></string>
+    <string name="chat_rate_this_chat_title"></string>
+    <string name="chat_leave_a_comment"></string>
+    <string name="chat_leave_a_comment_title"></string>
+    <string name="chat_edit_comment"></string>
+    <string name="chat_send_comment"></string>
+    <string name="chat_connection_lost"></string>
+    <string name="chat_no_internet"></string>
+    <string name="chat_account_offline_message"></string>
+
+    <!--Order History-->
+    <string name="date_start_"></string>
+    <string name="date_end_"></string>
+    <string name="start_time_should_be_earlier_than_end_time">\n        \n    </string>
+    <string name="end_time_must_be_later_than_start_time">\n    </string>
+    <string name="please_select_start_and_end_time_period_with_3_months">\n        \n    </string>
+
+    <!--scan face-->
+    <string name="facial_verification"></string>
+    <string name="no_hats"></string>
+    <string name="no_glasses"></string>
+    <string name="no_photo_editing"></string>
+    <string name="sufficient_lighting"></string>
+    <string name="scan_only_supports_face_authentication_when_unlocking_users_and_resetting_2fa"></string>
+    <string name="submission_successful"></string>
+    <string name="check_face_success_tip">\n          \n         \n        \n    </string>
+    <string name="submission_failed"></string>
+    <string name="check_face_failed_tip"> \n        \n    </string>
+    <string name="try_again"></string>
+    <string name="scan_face_scan_qr_code_failed"></string>
+    <string name="scan_face_network_abnormal"></string>
+    <string name="scan_face_facial_ver_failed"></string>
+    <string name="face_verification_title"></string>
+    <string name="face_verification_text">\n        \n        \n    </string>
+
+    <!--alert-->
+    <string name="price_alert"></string>
+    <string name="select_currency"></string>
+    <string name="clear_all"></string>
+    <string name="set_alert"></string>
+    <string name="create_alert"></string>
+    <string name="format_equivalent"></string>
+    <string name="please_enter_alert_price"></string>
+    <string name="input_error_tips">\n        \n    </string>
+    <string name="alert_hide_other_pairs"></string>
+    <string name="alert_price_equivalent"></string>
+    <string name="no_alerts"></string>
+    <string name="clear_all_confirm"></string>
+    <string name="dont_clear_all"></string>
+    <string name="create_alert_success"></string>
+    <string name="clear_alert_success"></string>
+    <string name="clear_all_alert_success"></string>
+
+    <!--notification-->
+    <string name="check_alert_message"> \n        \n    </string>
+    <string name="go_setting"></string>
+    <string name="temporary_no"></string>
+    <string name="_notifications"></string>
+    <string name="_announcements"></string>
+    <string name="recent_market_activity"></string>
+    <string name="_price_alert"></string>
+    <string name="trade_notification"></string>
+    <string name="tip_dont_close_all_notify">\n    </string>
+    <string name="tip_dont_close_one_notify">\n        \n    </string>
+    <string name="close"></string>
+    <string name="setNotificationNow"></string>
+
+    <string name="_connecting_"></string>
+
+    <!--qr scan-->
+    <string name="photo"></string>
+    <string name="scan_qr_code_failed"></string>
+    <string name="password_pattern_invalid">\n        \n    </string>
+
+    <!--network-->
+    <string name="format_network_request_failed"></string>
+    <string name="format_network_request_timeout"></string>
+
+    <string name="info"></string>
+    <string name="single_open"></string>
+    <string name="single_high"></string>
+    <string name="single_low"></string>
+    <string name="single_close"></string>
+    <string name="single_chg"></string>
+    <string name="single_chgp"></string>
+    <string name="single_vol"></string>
+
+    <!--info-->
+    <string name="rank"></string>
+    <string name="market_cap"></string>
+    <string name="circulation_supply"></string>
+    <string name="max_supply"></string>
+    <string name="total_supply"></string>
+    <string name="issue_date"></string>
+    <string name="issue_price"></string>
+    <string name="explorer"></string>
+    <string name="introduction"></string>
+    <string name="search_results"></string>
+    <string name="compare_this_coin_token_across_different_trading_markets">\n        \n    </string>
+    <string name="switch_between_trading_pairs_faster"></string>
+    <string name="more_trading_indicators"></string>
+    <string name="more_coin_token_information"></string>
+    <string name="got_it"></string>
+    <string name="u_have_no_fav"></string>
+
+    <!--Deactivate Account-->
+    <string name="deactivate_account"></string>
+    <string name="disable_warning"></string>
+    <string name="disable_notice">\n\n        \n\n        \n\n\n        \n    </string>
+    <string name="disable_account"></string>
+    <string name="disable_alert_title"></string>
+    <string name="disable_alert_content">\n        \n    </string>
+    <string name="deactivate"></string>
+    <string name="support_email"></string>
+
+    <!--Device management-->
+    <string name="device_management"></string>
+    <string name="these_devices_are_currently_allowed_to_access_your_account">\n        \n    </string>
+    <string name="_location_"></string>
+    <string name="_ip_"></string>
+    <string name="are_you_sure_you_want_to_delete_this_device">\n        \n    </string>
+    <string name="device_detail"></string>
+    <string name="_ip_address_"></string>
+    <string name="_recent_activity_"></string>
+    <string name="no_more_devices"></string>
+
+    <!--identity authentication-->
+    <string name="binance_app_does_not_support_enterprise_user_authentication_at_this_time">\n          <Data>\n            &lt;font color=\"#f0b90b\"&gt;www.binance.com&lt;/font&gt;</Data> \n    </string>
+    <string name="please_go_to_website_complete">\n        <tt>(www.binance.com)</tt>\n        \n        </string>
+    <string name="facial_verify"></string>
+    <string name="basic_info"></string>
+    <string name="location_info"></string>
+    <string name="last_name"></string>
+    <string name="middle_name"></string>
+    <string name="first_name"></string>
+    <string name="birthday"></string>
+    <string name="personal_info"></string>
+    <string name="certificate_info"></string>
+    <string name="id_info"></string>
+    <string name="face_info"></string>
+    <string name="verify_passInfo"></string>
+    <string name="id_verify"></string>
+    <string name="postal_code"></string>
+    <string name="city"></string>
+    <string name="country"></string>
+    <string name="reject"></string>
+    <string name="reject_reason">\n        \n    </string>
+    <string name="choose_appropriately"> </string>
+    <string name="own_one_account"></string>
+    <string name="please_go_to"></string>
+    <string name="binance_com"></string>
+    <string name="go_to_complete"></string>
+    <string name="format_24h_withdrawal_limit_btc"> </string>
+    <string name="to_complete"></string>
+    <string name="awaiting_approval"></string>
+    <string name="submit_again"></string>
+    <string name="_contact_us"></string>
+
+    <string name="input_first_name"></string>
+    <string name="input_middle_name"></string>
+    <string name="input_last_name"></string>
+    <string name="input_your_birth"></string>
+    <string name="input_your_address"></string>
+    <string name="input_postal_code"></string>
+    <string name="input_your_city"></string>
+    <string name="input_your_country_region"></string>
+
+    <string name="select_verification_type"></string>
+
+    <string name="sub_again"></string>
+    <string name="sumbit_refused"></string>
+    <string name="upload_id_fail_pls_retry"></string>
+    <string name="kyc_again"></string>
+    <string name="sumbit_success"></string>
+    <string name="upload_id_success_wait_for_next_step">\n         \n        \n    </string>
+    <string name="goto_usercenter"></string>
+    <string name="netverify_initiate_error"></string>
+    <string name="goto_auth_tip"></string>
+    <string name="goto_auth"></string>
+    <string name="personal"></string>
+    <string name="corporate"></string>
+    <string name="enterprise"></string>
+    <string name="system_version_is_too_low">\n        \n    </string>
+    <!--<string name="higher_limit">Higher Limit</string>-->
+
+    <!--funds-->
+    <string name="distribution"></string>
+    <string name="note"></string>
+    <string name="no_more_distribution"></string>
+    <string name="no_distribution_yet"></string>
+    <string name="coin_token"></string>
+    <string name="equivalent"></string>
+    <string name="others"></string>
+    <string name="portfolio"></string>
+    <string name="funds_balance_tips">\n         &lt;br&gt;</string>
+
+    <string name="withdrawal_address_management"></string>
+    <string name="add_new_address"></string>
+    <string name="whitelist"></string>
+    <string name="add_to_whitelist"></string>
+    <string name="please_input_the_label"></string>
+    <string name="please_input_the_address"></string>
+    <string name="please_input_the_tag"></string>
+    <string name="_edit"></string>
+    <string name="delete_address"></string>
+    <string name="_remove"></string>
+    <string name="_add"></string>
+    <string name="are_you_sure_to_turn_it_off"></string>
+    <string name="close_whitelist_alert">\n        \n    </string>
+    <string name="turn_off"></string>
+    <string name="disable_whitelist_tip">\n        \n    </string>
+    <string name="add_whitelist_tip">\n        \n    </string>
+    <string name="i_have_verified_the_email"></string>
+    <string name="do_not_receive_email_tip">\n         \n \n\n         \n \n\n        \n    </string>
+    <string name="disable_withdrawal_whitelist"></string>
+    <string name="edit_the_address"></string>
+    <string name="remove_from_whitelist"></string>
+    <string name="turn_it_on"></string>
+    <string name="open_whitelist_tip">\n         \n    </string>
+    <string name="turn_on"></string>
+    <string name="delete_success"></string>
+    <string name="avoid_risk_do_not_add_address">\n        \n    </string>
+    <string name="whitelist_tip">\n         \n        \n    </string>
+    <string name="remove_whitelist"></string>
+    <string name="add_whitelist"></string>
+    <string name="_confirm"></string>
+
+    <!--simplex-->
+    <string name="order_amount"></string>
+    <string name="total_charge"></string>
+    <string name="buy_now"></string>
+    <string name="notice"></string>
+    <string name="why_credit_card"></string>
+    <string name="res_fast"> \n    </string>
+    <string name="res_low_fees">\n    </string>
+    <string name="res_convenient"> </string>
+    <string name="payment_status"></string>
+    <string name="notice_1">\n        \n        \n    </string>
+    <string name="notice_2">\n        \n    </string>
+    <string name="notice_3">\n    </string>
+    <string name="notice_2_key1"></string>
+    <string name="notice_2_key2"></string>
+    <string name="notice_3_key"></string>
+    <string name="confirm_your_order"></string>
+    <string name="simplex_confirm_check">\n        \n    </string>
+    <string name="confirm_order_amount"></string>
+    <string name="confirm_deposit_to_account"></string>
+    <string name="confirm_total_charge"></string>
+    <string name="disclaimer"></string>
+    <string name="disclaimer_content">\n        \n         \n         \n         \n        \n    </string>
+    <string name="disclaimer_content_key"></string>
+    <string name="confirm_agreed"></string>
+    <string name="confirm_accept"></string>
+    <string name="input_check_positive_value"></string>
+    <string name="simplex_check_min_tip"></string>
+    <string name="simplex_check_max_tip"></string>
+    <string name="warning"></string>
+    <string name="region_unavailable"></string>
+    <string name="back"></string>
+    <string name="_understand_continue"></string>
+
+    <!--scan to login-->
+    <string name="_confirm_login"></string>
+    <string name="please_check"></string>
+    <string name="qr_code_check_tip">\n        </string>
+    <string name="_got_it"></string>
+    <string name="_rescan"></string>
+    <string name="qr_code_expired">\n        \n    </string>
+    <string name="qr_code_not_support_due_to_low_version">\n         \n    </string>
+    <string name="unable_reco_qr_code"></string>
+
+    <!--debug panel-->
+    <string name="change_env"></string>
+    <string name="fps_chart"></string>
+    <string name="router"></string>
+
+    <!--fees-->
+    <string name="fees"></string>
+    <string name="level_title"></string>
+    <string name="trade_volume_and_bnb_hold_title">\n\n    </string>
+    <string name="maker_taker_title">\n</string>
+    <string name="maker_taker_use_bnb_title">\n</string>
+    <string name="maker_and_taker"></string>
+    <string name="maker_and_taker_use_bnb"></string>
+    <string name="level_fees"></string>
+    <string name="general"></string>
+    <string name="fmt_tmaker_taker_use_bnb">\n</string>
+    <string name="fmt_maker_taker">\n</string>
+    <string name="fmt_trade_volume_and_bnb_hold">\n</string>
+    <string name="fmt_level"></string>
+    <string name="fmt_general_trade_volume_and_bnb_hold">\n</string>
+    <string name="tip_login"></string>
+    <string name="trade_fees"></string>
+    <string name="general_fee"></string>
+    <string name="past_30_day_trading_volume"></string>
+    <string name="trade_fee_1">\n         \n        \n    </string>
+    <string name="trade_fee_2">\n        \n    </string>
+    <string name="trade_fee_3">\n        \n         \n        \n    </string>
+    <string name="upgrade_level"></string>
+    <string name="date_utc"></string>
+    <string name="trade_volume"></string>
+    <string name="trade_volume_for_thirty_days"></string>
+    <string name="your_bnb_balance"></string>
+    <!--order-->
+    <string name="total_value_must_be_at_least"></string>
+    <string name="_all_market"></string>
+
+    <string name="feedback_note"> \n        \n    </string>
+    <!-- chat-->
+    <string name="keep"></string>
+    <string name="end"></string>
+    <string name="type_question"></string>
+    <string name="time_count_tip">\n         \n        \n    </string>
+    <string name="timeout_close_tip">\n    </string>
+    <string name="rate_service"></string>
+    <string name="leave"></string>
+    <string name="thanks"></string>
+
+    <!--market filter-->
+    <string name="filter"></string>
+    <string name="filter_guide"></string>
+
+    <!--margin term-->
+    <string name="trade_exchange"></string>
+    <string name="trade_margin"></string>
+    <string name="not_now"></string>
+    <string name="important_reminder"></string>
+    <string name="i_have_read_and_agreed"></string>
+    <string name="margin_trad"> </string>
+    <string name="title_open_margin_term"></string>
+    <string name="open_margin_term"></string>
+
+    <!--margin balance detail-->
+    <string name="margin_balance_total"></string>
+    <string name="margin_available"></string>
+    <string name="margin_borrowed"></string>
+    <string name="margin_interest"></string>
+    <string name="margin_estimated_value_cash"></string>
+    <string name="margin_estimated_value_btc"></string>
+
+    <!--margin transfer-->
+    <string name="_transfer"></string>
+    <string name="_borrow"></string>
+    <string name="_repay"></string>
+    <string name="risk"></string>
+    <string name="exchange_wallet"></string>
+    <string name="margin_wallet"></string>
+    <string name="your_input_"></string>
+    <string name="amount_too_higher"></string>
+    <string name="transfer_successful"></string>
+
+    <!--margin asset history-->
+    <string name="deposit"></string>
+    <string name="withdraw"></string>
+    <string name="transfer"></string>
+    <string name="borrow"></string>
+    <string name="repay"></string>
+
+    <string name="cash_account"></string>
+    <string name="margin_account"></string>
+    <string name="future_account"></string>
+
+    <string name="total_debt"></string>
+    <string name="account_equity"></string>
+    <string name="available"></string>
+    <string name="borrowed"></string>
+    <string name="net_asset"></string>
+    <string name="interest"></string>
+    <string name="all_balance"></string>
+    <string name="hide_zero_balances"></string>
+    <string name="show_zero_balances"></string>
+    <string name="small_balance_convert_to_bnb"></string>
+    <string name="level_tip"></string>
+    <string name="account_equity_tip"></string>
+
+    <!--margin history-->
+    <string name="margin_history_title"></string>
+    <string name="low_risk"></string>
+    <string name="moderate_risk"></string>
+    <string name="high_risk"></string>
+
+    <string name="coin_date"></string>
+    <string name="amount_interest"></string>
+    <string name="transfer_type"></string>
+    <string name="daily_interest_rate"></string>
+    <string name="__total"></string>
+
+
+    <string name="hour_interest"></string>
+    <string name="interest_explain">\n        \n    </string>
+    <string name="max_borrow_amount"></string>
+    <string name="confirm_borrow"></string>
+    <string name="borrow_success"></string>
+    <string name="_repayment"></string>
+
+    <string name="all_borrow"></string>
+    <string name="debt"></string>
+    <string name="confirm_repayment"></string>
+    <string name="repayment_success"></string>
+
+    <string name="max_borrow_limit"></string>
+    <string name="repay_min_borrow_limit"></string>
+    <string name="zero_enter_limit"></string>
+    <string name="min_repay_limit"></string>
+    <string name="min_enter_limit"></string>
+    <string name="repay_debt_limit"></string>
+
+    <!--margin calls-->
+    <string name="type_date"></string>
+    <string name="send_status"></string>
+    <string name="send_status_successful"></string>
+    <string name="send_status_unsuccessful"></string>
+
+    <!--margin liquidation-->
+    <string name="pair_date"></string>
+    <string name="price_average"></string>
+    <string name="filled_total"></string>
+
+    <string name="margin_calls"></string>
+    <string name="liquidation"></string>
+
+    <string name="choose_coin_empty_to_transfer"></string>
+    <string name="choose_coin_empty_to_repay"></string>
+    <string name="choose_coin_empty_to_withdraw"></string>
+
+
+    <string name="margin_051998"></string>
+    <string name="margin_051999"></string>
+    <string name="margin_051005"></string>
+    <string name="margin_051007"></string>
+    <string name="margin_051009"></string>
+    <string name="margin_051019"></string>
+    <string name="margin_051004"></string>
+    <string name="margin_051020"></string>
+    <string name="margin_051021"></string>
+    <string name="margin_051022"></string>
+    <string name="margin_051026"></string>
+    <string name="margin_051006"></string>
+    <string name="margin_051008"></string>
+    <string name="margin_051010"></string>
+    <string name="margin_051014"></string>
+    <string name="margin_051015"></string>
+    <string name="margin_051016"></string>
+    <string name="margin_051017"></string>
+    <string name="margin_051018"></string>
+    <string name="margin_051031"></string>
+    <string name="margin_051032"></string>
+    <string name="margin_051003"></string>
+    <string name="margin_051024"></string>
+    <string name="margin_051042"></string>
+    <string name="margin_051025"></string>
+    <string name="margin_200001003"></string>
+    <string name="margin_001139"></string>
+    <string name="margin_001141"></string>
+    <string name="margin_001142"></string>
+    <string name="margin_001144"></string>
+    <string name="margin_001143"></string>
+    <string name="margin_001140"></string>
+    <string name="margin_001099"> </string>
+    <string name="margin_051041"></string>
+
+    <!--    important reminder-->
+    <string name="detected_tips"></string>
+    <string name="detected_tip1"></string>
+    <string name="detected_tip2"></string>
+    <string name="detected_tip3"></string>
+    <string name="detected_tip4"></string>
+    <string name="check_tip"> </string>
+
+
+    <!--lending project list-->
+    <string name="_lending"></string>
+    <string name="_subscription_from"></string>
+    <string name="_subscription_to"></string>
+    <string name="lot_size"></string>
+    <string name="individual_cap"></string>
+    <string name="coupon_per_lot"></string>
+    <string name="value_date"></string>
+    <string name="redemption_date"></string>
+    <string name="lot"></string>
+    <string name="subscribe"></string>
+    <string name="coming_soon"></string>
+    <string name="expected_coupon"></string>
+    <string name="total_cost"></string>
+    <string name="display_available_only"></string>
+    <string name="start_time"></string>
+    <string name="_lot_size"></string>
+    <string name="interest_rate"></string>
+    <string name="duration"></string>
+    <string name="you_have_no_lending_products"></string>
+    <string name="preparation"></string>
+    <string name="purchaing"></string>
+    <string name="purchased"></string>
+    <string name="deducted"></string>
+    <string name="accuring_interest"></string>
+    <string name="pre_redemption"></string>
+    <string name="redeemend"></string>
+    <string name="lending_flexible"></string>
+    <string name="lending_fixed"></string>
+    <string name="total_interest_earned"></string>
+    <string name="today_interest_earned"></string>
+    <string name="average_annual_return"></string>
+    <string name="cumulative_interest"></string>
+
+    <!--lending subscribe-->
+    <string name="lot_amount"></string>
+    <string name="terms_of_use_lending"> <Data>&lt;font color=\"#f0b90b\"&gt;Terms Of Use Lending&lt;/font&gt;</Data> </string>
+    <string name="confirm_purchase"></string>
+    <string name="subscription_confirmation"></string>
+    <string name="goto_history"></string>
+    <string name="subscription_verificat"> </string>
+    <string name="individual_cap_exceeded"></string>
+    <string name="insufficient_available_balance"></string>
+
+    <!--lending history-->
+    <string name="subscription"></string>
+    <string name="redemption"></string>
+    <string name="redemption_principal"></string>
+    <string name="redemption_interest"></string>
+    <string name="redemption_amount"></string>
+    <string name="lend_pending"></string>
+    <string name="lend_subscription_succeeded"></string>
+    <string name="lend_payment_done"></string>
+    <string name="lend_failed"></string>
+
+    <!--lending asset-->
+    <string name="coupon_estimated_value"></string>
+    <string name="holding"></string>
+    <string name="holding_lot"></string>
+    <string name="subscription_date"></string>
+    <string name="duration_date"></string>
+    <string name="arp"></string>
+    <string name="order_details"></string>
+    <string name="lending_coupon"></string>
+
+    <string name="lending_077011"></string>
+    <string name="lending_077005"></string>
+    <string name="lending_077013"></string>
+    <string name="lending_other_code"> </string>
+    <string name="no_records_found"></string>
+
+    <!--    upgrade -->
+    <string name="upgrade_tip"></string>
+    <string name="upgrade_content"> </string>
+
+    <!--  capital -->
+    <string name="select_network"></string>
+    <string name="network_tip1"></string>
+    <string name="network_tip2"></string>
+    <string name="generate"></string>
+    <string name="referral_code"></string>
+    <string name="trade_anywhere"></string>
+    <string name="download_tip"> </string>
+  <!--  capital  end-->
+
+    <string name="kline_open_"></string>
+    <string name="kline_high"></string>
+    <string name="kline_low"></string>
+    <string name="kline_close"></string>
+    <string name="kline_chg"></string>
+    <string name="kline_chgp"></string>
+    <string name="kline_vol"></string>
+    <string name="kline_txn"></string>
+
+    <!--    c2c-chat-->
+    <string name="chat_input_your_content"></string>
+    <string name="chat_photos"></string>
+    <string name="chat_take_photo"></string>
+    <string name="chat_cannot_send_blank_message"></string>
+    <string name="chat_send"></string>
+    <string name="chat_un_known_message"></string>
+    <string name="photos_processing_failed"></string>
+    <string name="chat_user_buying_please_pay"></string>
+    <string name="chat_user_selling_waiting_for_payment"></string>
+    <string name="chat_already_paid"></string>
+    <string name="chat_already_paid_1">   </string>
+    <string name="chat_transaction_complete"> </string>
+    <string name="chat_transaction_complete_1"> </string>
+    <string name="chat_commit_appeal"></string>
+    <string name="chat_appeal_accepted"></string>
+    <string name="chat_order_cancelled"> </string>
+    <string name="chat_message_sending_hint"></string>
+    <string name="chat_image_save_fail"></string>
+    <string name="chat_save_picture_success"></string>
+    <string name="chat_click_retry"></string>
+    <string name="chat_merchant_please_pay"></string>
+    <string name="chat_merchant_waiting_for_payment"></string>
+    <string name="copied"></string>
+    <string name="buyer_appeal_completed"></string>
+    <string name="seller_appeal_completed"> </string>
+    <string name="cancel_appeal_completed"> </string>
+    <string name="system_cancel_appeal"> </string>
+
+    <string name="fiat_ad_guide"></string>
+
+    <!--    inbox-->
+    <string name="inbox_title"></string>
+    <string name="inbox_clear_all_hint"></string>
+    <string name="inbox_mark_all"></string>
+    <string name="inbox_view_more"></string>
+    <string name="inbox_edit_notifications"></string>
+    <string name="inbox_notification_management"></string>
+    <string name="inbox_notification_management_hint"></string>
+
+    <!--    fiat history-->
+    <string name="crypto"></string>
+    <string name="fiat"></string>
+    <string name="fiat_time"></string>
+    <string name="fiat_order_id"></string>
+    <string name="fiat_indicated_amount"></string>
+    <!--    reward center-->
+    <string name="rc_reward_center"></string>
+    <string name="rc_view_invalid_coupons"></string>
+    <string name="rc_invalid_coupons"></string>
+    <string name="rc_no_coupons"></string>
+    <string name="rc_use_now"></string>
+    <string name="rc_used"></string>
+    <string name="rc_expired"></string>
+    <string name="rc_before_time"></string>
+    <string name="rc_instructions"></string>
+    <string name="rc_open_account_hint"> </string>
+    <string name="rc_no_account"></string>
+    <string name="rc_confirm_hint"> </string>
+    <string name="rc_to_open_account"></string>
+    <string name="rc_to_account"></string>
+    <string name="rc_redeem_success"></string>
+    <string name="rc_redeem_coupons"></string>
+    <string name="rc_use_coupons"></string>
+    <string name="rc_system_error"></string>
+    <string name="rc_experince_hint"> &lt;br/&gt;</string>
+    <string name="rc_spot_hint"></string>
+
+    <string name="not_install_facebook"></string>
+    <string name="not_install_tg"></string>
+    <string name="snapshot"></string>
+    <string name="snapshot_ca">\n</string>
+    <string name="permission_is_not_available_requesting_external_storage"> </string>
+
+    <!--    multi devices-->
+    <string name="md_logout_hint"></string>
+    <string name="world_leading"></string>
+    <string name="cryptocurrency_exchange"></string>
+    <string name="trade_now"></string>
+    <string name="share_app"></string>
+    <string name="md_loged_in_devices"></string>
+    <string name="md_current_device_title"></string>
+    <string name="md_current_device"></string>
+    <string name="md_current_loged"></string>
+    <string name="share_the_app"></string>
+
+
+    <!-- face++ -->
+    <string name="face_verification_success"></string>
+    <string name="face_verification_failed"></string>
+    <string name="face_verification_failed_tip"> </string>
+    <string name="face_start"></string>
+
+</resources>
