@@ -63,6 +63,7 @@
     <string name="_book">Book</string>
     <string name="indicator">Indicator</string>
     <string name="compare_markets">Compare Markets</string>
+    <string name="compare_markets_1">Compare Markets1</string>
 
     <string name="format_symbol">%1$s / %2$s</string>
     <string name="format_price_tag">Price(%1$s)</string>
