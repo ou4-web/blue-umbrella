@@ -1,0 +1,60 @@
+$("#field1").alpaca({
+    "schema": {
+        "title": "Perfil de cliente",
+        "description": "Perfil de cliente del helado de la alpaca",
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Nombre completo",
+                "type": "string"
+            },
+            "age": {
+                "title": "Edad",
+                "type": "number"
+            },
+            "icecream": {
+                "title": "Helado preferido",
+                "type": "string",
+                "enum": ["Vanilla", "Chocolate", "Coffee", "Strawberry", "Mint"]
+            },
+            "address": {
+                "title": "Direcci&#243;n de comienzo de la pista en disco",
+                "type": "object",
+                "properties": {
+                    "street": {
+                        "title": "Direcci&#243;n de calle",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "maxLength": 30
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
+                    },
+                    "city": {
+                        "title": "Ciudad",
+                        "type": "string"
+                    },
+                    "state": {
+                        "title": "Estado",
+                        "type": "string"
+                    },
+                    "zip": {
+                        "title": "C&#243;digo postal",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "options": {
+        "fields": {
+            "icecream": {
+                "optionLabels": ["Vainilla", "Chocolate", "Cafe", "Fresa", "Menta"]
+            }
+        }
+    },
+    "view": {
+        "locale": "es_ES"
+    }
+});
