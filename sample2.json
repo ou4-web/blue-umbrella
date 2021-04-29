@@ -1,4 +1,4 @@
-$("#field1").alpaca({
+{
     "schema": {
         "title": "Perfil de cliente",
         "description": "Perfil de cliente del helado de la alpaca",
@@ -57,4 +57,4 @@ $("#field1").alpaca({
     "view": {
         "locale": "es_ES"
     }
-});
+}
