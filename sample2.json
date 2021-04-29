@@ -17,6 +17,11 @@
                 "type": "string",
                 "enum": ["Vanilla", "Chocolate", "Coffee", "Strawberry", "Mint"]
             },
+            "icecream2": {
+                "title": "Helado preferido 2",
+                "type": "string",
+                "enum": ["Vanilla", "Chocolate", "Coffee", "Strawberry", "Mint"]
+            },
             "address": {
                 "title": "Direcci&#243;n de comienzo de la pista en disco",
                 "type": "object",
