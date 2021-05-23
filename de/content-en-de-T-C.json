@@ -1,10 +1,13 @@
 {
-    "fruit": "Apple de de",
-    "size": "Large",
-    "color": "Green",
+    "fruit": "Orange",
+    "size": "Groß",
+    "color": "Grün",
 	"color2": "Red2",
 	"color3": "Red3",
 	"color4" : "Red4",
-	"vegetable": "Carrot"
-	
+	"vegetable": "Karotte",
+	"vegetable2": "Carrot2",
+	"vegetable3": "Carrot3",
+	"vegetable4": "Carrot4",
+	"vegetable5": "Carrot5"
 }
