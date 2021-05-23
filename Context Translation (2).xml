@@ -1,0 +1,109 @@
+
+<application>
+<items>
+	<unique_id>job_details_modified</unique_id>
+	<string>Job Details</string>
+	<maxlength>20</maxlength>
+   	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://1.bonami.hu/images/tag/2a/37/2a371ec3123d9bcc4c34aa36023b17b5cef7c678-160x160.jpeg"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_edit_alsomodified</unique_id>
+	<string>Edit</string>
+	<maxlength>2</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_edit.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_donwload_original</unique_id>
+	<string>Download Original File</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_original.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_donwload_completed</unique_id>
+	<string>Download Completed File (Modified)</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_completed.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>due_date</unique_id>
+	<string>Due Date</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/due_date.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>status</unique_id>
+	<string>Status</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/status.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>project</unique_id>
+	<string>Project</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/project.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>source_language</unique_id>
+	<string>Source Language</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/source_language.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>target_language</unique_id>
+	<string>Traget Language</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/target_language.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>workflow_step</unique_id>
+	<string>Workflow Step</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/workflow_step.png"></img></td></tr></table>]]></context>
+</items>
+	
+<items>
+	<unique_id>assigned_providers_modified</unique_id>
+	<string>ASSIGNED PROVIDERS (modified)</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/assigned_providers.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>status_history</unique_id>
+	<string>ASSIGNED PROVIDERS</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/status_history.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>created</unique_id>
+	<string>Created</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>new</unique_id>
+	<string>Added string</string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+<items>
+	<unique_id>new_2</unique_id>
+	<string>And another added string</string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+	
+</application>
