@@ -1,0 +1,60 @@
+{
+    "schema": {
+        "title": "Perfil de cliente",
+        "description": "Perfil de cliente del Helado 德拉羊驼",
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "NOmbre compleTO",
+                "type": "串"
+            },
+            "age": {
+                "title": "Edad",
+                "type": "号码"
+            },
+            "icecream": {
+                "title": "Helado",
+                "type": "串",
+                "enum": ["香草", "巧克力", "咖啡", "草莓", "薄荷"]
+            },
+            "address": {
+                "title": "Dirección de comienzo de la pista en disco",
+                "type": "object",
+                "properties": {
+                    "street": {
+                        "title": "指导 de Calle",
+                        "type": "排列",
+                        "items": {
+                            "type": "串",
+                            "maxLength": 30
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
+                    },
+                    "city": {
+                        "title": "城",
+                        "type": "串"
+                    },
+                    "state": {
+                        "title": "埃斯塔多",
+                        "type": "串"
+                    },
+                    "zip": {
+                        "title": "Código 邮政",
+                        "type": "串"
+                    }
+                }
+            }
+        }
+    },
+    "options": {
+        "fields": {
+            "icecream": {
+                "optionLabels": ["Vainilla", "巧克力", "咖啡馆", "Fresa", "Menta"]
+            }
+        }
+    },
+    "view": {
+        "locale": "es_ES"
+    }
+}
