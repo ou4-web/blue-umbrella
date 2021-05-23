@@ -1,10 +1,13 @@
 {
-    "fruit": "pomme",
-    "size": "en liberté",
-    "color": "vert",
-	"color2": "Rouge2",
+    "fruit": "Orange",
+    "size": "Grande",
+    "color": "Vert",
+	"color2": "Rouge 2",
 	"color3": "Rouge3",
 	"color4" : "Rouge4",
-	"vegetable": "carotte"
-	
+	"vegetable": "Carotte",
+	"vegetable2": "Carotte2",
+	"vegetable3": "Carotte3",
+	"vegetable4": "Carrot4",
+	"vegetable5": "Carotte5"
 }
