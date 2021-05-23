@@ -1,0 +1,60 @@
+{
+    "schema": {
+        "title": "Perfil de cliente",
+        "description": "Perfil de cliente del helado de la alpaca",
+        "type": "オブジェクト",
+        "properties": {
+            "name": {
+                "title": "Nombre completo",
+                "type": "ストリング"
+            },
+            "age": {
+                "title": "エダッド",
+                "type": "数"
+            },
+            "icecream": {
+                "title": "ヘラド・プリファード",
+                "type": "ストリング",
+                "enum": ["バニラ", "チョコレート", "コーヒー", "イチゴ", "ミント"]
+            },
+            "address": {
+                "title": "Direccióndecomienzodela pista en disco",
+                "type": "オブジェクト",
+                "properties": {
+                    "street": {
+                        "title": "Direccióndecalle",
+                        "type": "アレイ",
+                        "items": {
+                            "type": "ストリング",
+                            "maxLength": 30
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
+                    },
+                    "city": {
+                        "title": "シウダード",
+                        "type": "ストリング"
+                    },
+                    "state": {
+                        "title": "エスタド",
+                        "type": "ストリング"
+                    },
+                    "zip": {
+                        "title": "コディゴ郵便",
+                        "type": "ストリング"
+                    }
+                }
+            }
+        }
+    },
+    "options": {
+        "fields": {
+            "icecream": {
+                "optionLabels": ["ヴァイニラ", "チョコレート", "カフェ", "フレサ", "ミント"]
+            }
+        }
+    },
+    "view": {
+        "locale": "es_ES"
+    }
+}
