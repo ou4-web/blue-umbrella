@@ -1,0 +1,60 @@
+{
+    "schema": {
+        "title": "Perfil de cliente",
+        "description": "Perfil de cliente del helado de la alpaca",
+        "type": "objeto",
+        "properties": {
+            "name": {
+                "title": "Nombre completo",
+                "type": "cuerda"
+            },
+            "age": {
+                "title": "Edad",
+                "type": "número"
+            },
+            "icecream": {
+                "title": "Helado preferido",
+                "type": "cuerda",
+                "enum": ["Vanilla", "chocolate", "café", "fresa", "menta"]
+            },
+            "address": {
+                "title": "Dirección de comienzo de la pista en disco",
+                "type": "objeto",
+                "properties": {
+                    "street": {
+                        "title": "Dirección de calle",
+                        "type": "arreglo",
+                        "items": {
+                            "type": "cuerda",
+                            "maxLength": 30
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
+                    },
+                    "city": {
+                        "title": "Ciudad",
+                        "type": "cuerda"
+                    },
+                    "state": {
+                        "title": "Estado",
+                        "type": "cuerda"
+                    },
+                    "zip": {
+                        "title": "Código postal",
+                        "type": "cuerda"
+                    }
+                }
+            }
+        }
+    },
+    "options": {
+        "fields": {
+            "icecream": {
+                "optionLabels": ["Vainilla", "chocolate", "Café", "Fresa", "Menta"]
+            }
+        }
+    },
+    "view": {
+        "locale": "es_ES"
+    }
+}
